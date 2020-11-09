@@ -1,0 +1,40 @@
+.imageBox h2{font-family: 'Noto Serif', serif; font-style: italic; font-size: 5em; text-align: center; text-transform: uppercase; text-shadow: 3px 3px 2px rgba(0,0,0,0.3); position: absolute; left: 0; top: 50%; width: 100%}
+.imageBox h2 span{display: block; font-family: 'Lobster', cursive; color: #bdae69; font-size: .3em}
+
+#content{width:100%;overflow: hidden; background: rgba(5,23,47,.8)}
+#content .music_lp{position: relative; margin-bottom: 100px; height: 500px; margin-top: 100px}
+#content .music_lp img{position: absolute; left: 50%; top: 0; margin-left: -250px; width: 500px}
+#content .music_lp img:first-of-type{z-index: 10; box-shadow: -3px 18px 30px #000}
+#content .music_lp img:last-of-type{margin-left: -60px; border-radius: 250px; box-shadow: 3px 18px 30px #000; transition: all 1s; opacity: .6}
+#content .music_lp:hover img:last-of-type{opacity: 1; transform: rotate(60deg)}
+#content ul{text-align: center; text-transform: capitalize; font-size: 2em; margin-bottom: 100px}
+#content ul li{margin-bottom: 10px}
+#content .lp_small{width: 65%; margin: 50px auto; display: none}
+#content .lp_small img{width: 100%; border-radius: 50%}
+/* 일반 pc */
+@media screen and (max-width:1280px) {
+    
+}
+
+
+/* 테블릿 */
+@media screen and (max-width:1024px) {
+  
+    }
+
+/* 소형 테블릿 */
+@media screen and (max-width:768px) {
+    #content ul{font-size: 1em}
+    #content .music_lp{display: none}
+    #content .lp_small{display: block}
+}
+
+/* 모바일 */
+@media screen and (max-width:640px) {
+    #content .casting li{float: none; width: 100%}
+    #content .actor{display: none}
+}
+
+
+
+

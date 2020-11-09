@@ -1,0 +1,33 @@
+<script>
+    window.onload=function(){
+            var num = '<?=$_GET['num']?>';
+            var nav1= document.getElementById('nav1'); 
+            var nav2= document.getElementById('nav2');
+            var nav3= document.getElementById('nav3');
+            var nav4= document.getElementById('nav4');
+
+              if(num==1){
+                  nav1.className='current';
+              }else if(num==2){
+                  nav2.className='current';
+              }else if(num==3){
+                  nav3.className='current';
+              }
+    }
+</script> 
+<!-- 메인비주얼영역 -->    
+        <div class="visual">
+            <img src="common/images/sub6visual.jpg" alt="">
+        </div>
+    <!-- 서브네비영역 -->
+        <div class="subnav_box">
+            <h3>인재채용</h3>
+            <p>성실, 창의, 인화를 기본역량으로 하는 인재상을 추구합니다.</p>
+            <div class="sub_nav">
+                <ul>
+                    <li><a id="nav1" href="sub6_1.html">인재상</a></li>
+                    <li><a id="nav2" href="sub6_2.html">인사제도</a></li>
+                    <li><a id="nav3" href="sub6_3.html">채용가이드</a></li>
+                </ul>
+            </div>
+        </div>

@@ -1,0 +1,58 @@
+<?
+    session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>세스코-인사말</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub1common.css">
+    <link rel="stylesheet" href="css/content1.css">
+    
+    <script src="../common/js/prefixfree.min.js"></script>
+    <script src="https://kit.fontawesome.com/c56cffabac.js" crossorigin="anonymous"></script>
+
+    <!--[if IE9]>  
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <? include "../common/sub_head.html"?>
+    <? $_GET['num']=1; include "common/sub_nav.html"; ?>
+    <!-- 본문콘텐츠영역 -->
+        <article id="contentArea">
+            <div class="title_area">
+                <div class="line_map">
+                    <span>home&gt;</span>
+                    <span>세스코소개&gt;</span>
+                    <span>인사말</span>
+                </div>
+                <h2>회장인사말</h2>
+                <span>chariman message</span>
+            </div>
+            <div class="content_area">
+                <div class="image_box">
+                    <p>이제 고객 여러분들과 함께<br><span>세계를 향해</span> 성장해 나가겠습니다.</p>
+                    <img src="images/content1/chairman.jpg" alt="">
+                </div>
+                <p>세스코는 1970년대 불모지나 다름없던 우리나라의 방제 산업에 기반을 세우고, 새로운 기술을 도입, 신제품을 개발하는 노력을 꾸준히 펼쳐 이제는 전국적인 규모를 자랑하는 명실공히 세계 최대규모의 방제 기업으로 성장하게 되었습니다. <br>위해요소로부터 국민의 건강을 지키는 것, 이것이 세스코의 모토입니다. <br>그 동안 품질개선과 서비스 향상으로 고객 여러분의 삶의 질을 높이기 위한 노력을 지속해 왔으며, 앞으로도 세스코는 깨끗한 환경을 통한 인간 행복추구를 위해 더욱 발전하는 모습을 보여드리겠습니다. <br>또한, 이를 통해 방제 산업을 세계적 수준으로 끌어 올리고, 오늘날의 세스코가 있기까지 사랑과 후원을 베풀어주신 모든 분들과 함께 나아갈 것입니다.</p>
+                <p>사회와 더불어 발전하고 나아가 인류의 생활에 보탬이 되는 기업으로 거듭나기 위해 가장 잘 할 수 있는 일에서 가장 큰 힘을 발휘하는 기업이 되고자 노력할 것입니다.</p>
+                <p>'쓰고 있는 열쇠는 항상 빛난다'는 플랭클린의 명언처럼, <br>세스코는 오늘도 부지런히 한 걸음 한 걸음씩 정상을 향해 걸어가겠습니다. 마지막으로 저희 세스코 홈페이지를 방문해주신 네티즌 여러분께 진심으로 감사의 말씀을 드리며, 즐겁고 유익한 시간이 되시길 바랍니다.</p>
+                <div class="sign_box">
+                    <span>(주)세스코회장 전순표</span>
+                    <img src="images/content1/sign.jpg" alt="">
+                </div>
+            </div>
+        </article>
+    <!-- 푸터공통영역-->
+    <? include "../common/sub_foot.html"?>
+</body>
+</html>

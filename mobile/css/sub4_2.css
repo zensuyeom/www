@@ -1,0 +1,22 @@
+/*방문상담신청*/
+.main{background: url(../images/sub4_visual.png) no-repeat center; background-size: cover; margin-top: 50px; height: 100px; text-align: center; overflow: hidden; margin-bottom: 25px}
+.main h3{font-family: 'Nanum Gothic', sans-serif; font-size: 1.714em; color: #fff; margin: 15px 0}
+.main p{font-family: 'Nanum Myeongjo', serif; color: #fff; font-weight: 700}
+#content{text-align: center}
+#content h2{font-family: 'Nanum Gothic', sans-serif; font-size: 2em; color: #33a8e4; font-weight: 700; margin-bottom: 10px}
+#content>span{display: block; text-transform: uppercase; font-family: 'Roboto', sans-serif; font-weight: bold; margin-bottom: 15px}
+#content .top_content{padding: 15px 5%; text-align: left; font-size: 1.143em; background: #ff7d27; margin-bottom: 15px}
+#content .top_content p{line-height: 1.5em; position: relative}
+#content .top_content p::before{content: ''; display: block; width: 4px; height: 4px; background: #333; position: absolute; left: -10px; top: 10px}
+#content .top_content p:first-of-type{margin-bottom: 10px}
+/*form 부분*/
+#content form{width: 96%; margin: 2%}
+#content form .row:first-of-type{border-top: 2px solid #828282}
+#content .form-group{border-bottom: 1px solid #828282; padding: 10px 0; position: relative}
+#content .row:last-of-type .form-group{border: 0}
+#content form label, #content form input, #content form textarea{display: inline-block; padding: 10px; font-size: 1.143em; box-sizing: border-box}
+#content form label{width: 20%; margin: 0 5%}
+#content form input{width: 50%; margin-right: 10%; border: 1px solid #dedede; outline: 0; border-radius: 3px}
+#content form textarea{width: 50%; border: 1px solid #dedede; border-radius: 3px; margin-left: 20%}
+#content form .message{position: absolute; top: 0; left: 5%}
+#content form .send_btn{width: 100px; padding: 10px; border: 0; background: #0171bb; border-radius: 5px; color: #fff; font-weight: bold}

@@ -1,0 +1,22 @@
+/* 인재상 본문 */
+#contentArea .content_area span{color: #ff7d27}
+#contentArea .content_area section{width: 300px; float: left; margin-bottom: 500px}
+#contentArea .content_area section:first-of-type{margin: 0 100px 0 50px}
+#contentArea .content_area section:last-of-type{margin: 0 50px 0 100px}
+#contentArea .content_area h3{font-family: 'Nanum Gothic', sans-serif; font-size: 2.857em; margin-bottom: 50px; position: relative}
+#contentArea .content_area section:first-of-type h3{text-indent: 40px}
+#contentArea .content_area section:last-of-type h3{text-indent: -60px}
+#contentArea .content_area section:first-of-type h3::before{content: ''; display: block; width: 450px; height: 450px; background: #33a8e4; border-radius: 225px; position: absolute; top: 80px; left: -50px; z-index: -1}
+#contentArea .content_area ul{position: relative}
+#contentArea .content_area section:nth-of-type(2) h3::before{content: ''; display: block; width: 450px; height: 450px; background: #ff7d27; border-radius: 225px; position: absolute; top: 80px; left: -75px; z-index: -1}
+#contentArea .content_area section:last-of-type h3::before{content: ''; display: block; width: 450px; height: 450px; background: #29bab3; border-radius: 225px; position: absolute; top: 80px; left: -100px; z-index: -1}
+#contentArea .content_area dl{position: relative}
+#contentArea .content_area dt{text-align: left; line-height: 2em;position: absolute; left: 0; top: 110px}
+#contentArea .content_area dd{text-align: left; line-height: 2em;position: absolute; left: 0; top: 200px}
+#contentArea .content_area section:nth-of-type(1) dt{left: 100px}
+#contentArea .content_area section:nth-of-type(1) dd{left: 60px}
+#contentArea .content_area section:nth-of-type(2) dt{left: 70px}
+#contentArea .content_area section:nth-of-type(2) dd{left: 30px}
+#contentArea .content_area section:nth-of-type(3) dt{left: 60px}
+#contentArea .content_area section:nth-of-type(3) dd{left: 20px}
+#contentArea .content_area dt{font-family: 'Nanum Gothic', sans-serif; font-size: 1.786em}

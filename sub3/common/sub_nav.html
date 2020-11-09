@@ -1,0 +1,36 @@
+<script>
+    window.onload=function(){
+            var num = '<?=$_GET['num']?>';
+            var nav1= document.getElementById('nav1'); 
+            var nav2= document.getElementById('nav2');
+            var nav3= document.getElementById('nav3');
+            var nav4= document.getElementById('nav4');
+
+              if(num==1){
+                  nav1.className='current';
+              }else if(num==2){
+                  nav2.className='current';
+              }else if(num==3){
+                  nav3.className='current';
+              }else if(num==4){
+                  nav4.className='current';
+              }
+    }
+</script> 
+    <!-- 메인비주얼영역 -->    
+        <div class="visual">
+            <img src="common/images/sub3visual.jpg" alt="">
+        </div>
+    <!-- 서브네비영역 -->
+        <div class="subnav_box">
+            <h3>세스코쇼핑</h3>
+            <p>더 깨끗하게, 더 안전하게 세스코쇼핑</p>
+            <div class="sub_nav">
+                <ul>
+                    <li><a id="nav1" href="sub3_1.html">세스케어란?</a></li>
+                    <li><a id="nav2" href="sub3_2.html">케미컬 제품</a></li>
+                    <li><a id="nav3" href="sub3_3.html">클리닝 제품</a></li>
+                    <li><a id="nav4" href="sub3_4.html">공기질관리 제품</a></li>
+                </ul>
+            </div>
+        </div>

@@ -1,0 +1,44 @@
+.imageBox h2{font-family: 'Noto Serif', serif; font-style: italic; font-size: 5em; text-align: center; text-transform: uppercase; text-shadow: 3px 3px 2px rgba(0,0,0,0.3); position: absolute; left: 0; top: 50%; width: 100%}
+.imageBox h2 span{display: block; font-family: 'Lobster', cursive; color: #bdae69; font-size: .3em}
+
+#content{width:100%;overflow: hidden; background: rgba(5,23,47,.8)}
+#content .casting{overflow: hidden; width: 80%; margin: 10% auto; border: 5px solid #ebef1c; box-sizing: border-box}
+#content .casting li{float: left; width: 20%; overflow: hidden}
+#content .casting li a{display: block; position: relative; color: #fff}
+#content .casting li a img{width: 100%; transition: all .5s}
+#content .casting li a span{display: block; position: absolute; top: 100%; left: 0; text-align: center; width: 100%; font-size: 1.5em; transition: all .7s}
+#content .casting li a:hover img{opacity: .8}
+#content .casting li a:hover span{top: 40%}
+#content .actor{overflow: hidden; width: 98%; margin: 0 auto; margin-bottom: 10%}
+#content .actor li:nth-of-type(2){display: none}
+#content .actor li:nth-of-type(3){display: none}
+#content .actor li:nth-of-type(4){display: none}
+#content .actor li:nth-of-type(5){display: none}
+#content .actor li p{font-size: 1.5em; line-height: 2em; width: 80%; margin: 0 auto; text-align: left}
+#content .actor li p:first-of-type{margin-bottom: 50px}
+/* 일반 pc */
+@media screen and (max-width:1280px) {
+    
+}
+
+
+/* 테블릿 */
+@media screen and (max-width:1024px) {
+    #content .casting li a span{font-size: 1em}
+    #content .actor li p{font-size: 1em}
+    }
+
+/* 소형 테블릿 */
+@media screen and (max-width:768px) {
+    
+}
+
+/* 모바일 */
+@media screen and (max-width:640px) {
+    #content .casting li{float: none; width: 100%}
+    #content .actor{display: none}
+}
+
+
+
+

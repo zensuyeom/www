@@ -1,0 +1,103 @@
+    <div id="skipNav">
+       <a href="#contentArea">본문 바로가기</a>
+       <a href="#gnb">글로벌 네비게이션 바로가기</a>
+    </div>
+    <div id="wrap">
+    <!-- 헤더공통영역 -->
+        <header id="headerArea">
+           <div class="header_inner">
+                <h1 class="logo">
+                   <a href="../index.html">세스코로고</a>
+                </h1>
+                <div class="header_right">
+                    <div class="top_menu">
+                       <ul>
+                           <?
+                            if(!$userid)
+                            {
+                           ?>    
+                           <li><a href="../login/login_form.php">로그인</a></li>
+                           <li><a href="../member/join.html">회원가입</a></li>
+                          <?
+                           }
+                           else
+                           {
+                           ?>
+                           <li><a href="../login/logout.php">로그아웃</a></li>
+                           <li><a href="../login/member_form_modify.php">정보수정</a></li>
+                           <?
+                           }
+                           ?>
+                       </ul>
+                    </div>
+                    <nav id="gnb">
+                        <h2 class="hidden">글로벌네비게이션영역</h2>
+                        <ul class="dropdownmenu">
+                            <li class="menu">
+                                <h3>
+                                    <a class="depth1" href="../sub1/sub1_1.html">세스코소개</a>
+                                </h3>
+                            <ul>
+                                <li><a href="../sub1/sub1_1.html">회장인사말</a></li>
+                                <li><a href="../sub1/sub1_2.html">회사소개</a></li>
+                                <li><a href="../sub1/sub1_3.html">비전&amp;미션</a></li>
+                                <li><a href="../sub1/sub1_4.html">핵심가치</a></li>
+                            </ul>
+                            </li>
+                            <li class="menu">
+                                <h3>
+                                    <a class="depth1" href="../sub2/sub2_1.html">서비스</a>
+                                </h3>
+                                <ul>
+                                    <li><a href="../sub2/sub2_1.html">가정집</a></li>
+                                    <li><a href="../sub2/sub2_2.html">요식업</a></li>
+                                    <li><a href="../sub2/sub2_3.html">의료시설</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu">
+                                <h3>
+                                    <a class="depth1" href="../sub3/sub3_1.html">세스코쇼핑</a>
+                                </h3>
+                                <ul>
+                                    <li><a href="../sub3/sub3_1.html">세스케어란?</a></li>
+                                    <li><a href="../sub3/sub3_2.html">케미컬 제품</a></li>
+                                    <li><a href="../sub3/sub3_3.html">클리닝 제품</a></li>
+                                    <li><a href="../sub3/sub3_4.html">공기질 관리 제품</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu">
+                                <h3>
+                                    <a class="depth1" href="../sub4/sub4_1.html">고객지원</a>
+                                </h3>
+                                <ul>
+                                   <li><a href="../sub4/sub4_1.html">자주하는질문</a></li>
+                                    <li><a href="../sub4/sub4_2.html">방문상담신청</a></li>
+                                    <li><a href="../sub4/sub4_3.html">찾아오시는길</a></li>
+                                    
+                                </ul>
+                            </li>
+                            <li class="menu">
+                                <h3>
+                                    <a class="depth1" href="../greet/list.php">공지사항</a>
+                                </h3>
+                                <ul>
+                                    <li><a href="../greet/list.php">공지사항</a></li>
+                                    <li><a href="../event/list.php">이벤트</a></li>
+                                    <li><a href="../sub5/sub5_3.html">홍보영상</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu">
+                                <h3>
+                                    <a class="depth1" href="../sub6/sub6_1.html">인재채용</a>
+                                </h3>
+                                <ul>
+                                    <li><a href="../sub6/sub6_1.html">인재상</a></li>
+                                    <li><a href="../sub6/sub6_2.html">인사제도</a></li>
+                                    <li><a href="../sub6/sub6_3.html">채용가이드</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>

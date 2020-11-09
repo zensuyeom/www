@@ -1,0 +1,83 @@
+<?
+    session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>세스코-가정집</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub2common.css">
+    <link rel="stylesheet" href="css/content1.css">
+    
+    <script src="../common/js/prefixfree.min.js"></script>
+    <script src="https://kit.fontawesome.com/c56cffabac.js" crossorigin="anonymous"></script>
+
+    <!--[if IE9]>  
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <? include "../common/sub_head.html"?>
+    <? $_GET['num']=1; include "common/sub_nav.html"; ?>
+    <!-- 본문콘텐츠영역 -->
+        <article id="contentArea">
+            <div class="title_area">
+                <div class="line_map">
+                    <span>home&gt;</span>
+                    <span>서비스&gt;</span>
+                    <span>가정집</span>
+                </div>
+                <h2>가정집</h2>
+                <span>home</span>
+            </div>
+            <div class="content_area">
+             <p>가족의 <span>행복</span>을 지켜주는, 리빙 파트너</p>
+             <ol>
+                 <li>
+                     <img src="images/content1/homeservice1.jpg" alt="">
+                     <dl>
+                         <dt>1. 사전조사 및 진단</dt>
+                         <dd>- 정확한 문제해충 종류 및 성장주기, 성별파악</dd>
+                         <dd>- 서식처 파악</dd>
+                         <dd>- 침입 및 이동경로 파악</dd>
+                     </dl>
+                 </li>
+                 <li>
+                     <img src="images/content1/homeservice2.jpg" alt="">
+                     <dl>
+                         <dt>2. 처방</dt>
+                         <dd>- 세스코 위생해충기술, 연구소에서 자체개발, <br> <span>생산된 약제시스템을 적용한 1:1 맞춤방제솔루션 처방</span></dd>
+                     </dl>
+                 </li>
+                 <li>
+                     <img src="images/content1/homeservice3.jpg" alt="">
+                     <dl>
+                         <dt>3. 투약 및 조치</dt>
+                         <dd>- 처방된 약제의 투약 및 방제솔루션 적용</dd>
+                         <dd>- 해충 유입 경로에 대한 시설 보완 컨설팅</dd>
+                     </dl>
+                 </li>
+                 <li>
+                     <img src="images/content1/homeservice4.jpg" alt="">
+                     <dl>
+                         <dt>4. 정기 모니터링 서비스</dt>
+                         <dd>- 지속적인 해충퇴치 현황파악으로 해충 재발방지</dd>
+                         <dd>- 문제 발생 시, 신속하고 완벽한 대처 가능</dd>
+                     </dl>
+                 </li>
+             </ol>
+             <a href="#">서비스 신청하기</a>
+            </div>
+        </article>
+    <!-- 푸터공통영역-->
+    <? include "../common/sub_foot.html"?>
+</body>
+</html>

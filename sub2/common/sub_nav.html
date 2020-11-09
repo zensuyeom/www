@@ -1,0 +1,35 @@
+<script>
+    window.onload=function(){
+            var num = '<?=$_GET['num']?>';
+            var nav1= document.getElementById('nav1'); 
+            var nav2= document.getElementById('nav2');
+            var nav3= document.getElementById('nav3');
+            var nav4= document.getElementById('nav4');
+
+              if(num==1){
+                  nav1.className='current';
+              }else if(num==2){
+                  nav2.className='current';
+              }else if(num==3){
+                  nav3.className='current';
+              }
+    }
+</script> 
+
+
+    <!-- 메인비주얼영역 -->    
+        <div class="visual">
+            <img src="common/images/sub2visual.jpg" alt="">
+        </div>
+    <!-- 서브네비영역 -->
+        <div class="subnav_box">
+            <h3>서비스</h3>
+            <p>세스코만의 고객 케어 서비스</p>
+            <div class="sub_nav">
+                <ul>
+                    <li><a id="nav1" href="sub2_1.html">가정집</a></li>
+                    <li><a id="nav2" href="sub2_2.html">요식업</a></li>
+                    <li><a id="nav3" href="sub2_3.html">의료시설</a></li>
+                </ul>
+            </div>
+        </div>

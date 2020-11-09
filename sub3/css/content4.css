@@ -1,0 +1,63 @@
+/* 공기질관리 제품 본문 */
+#contentArea .content_area .content_top{background: url(../images/content4/visual.jpg) no-repeat; width: 1000px; height: 500px; margin: 0 auto; overflow: hidden; margin-bottom: 100px; margin-top: 30px}
+#contentArea .content_area .content_top p{width: 320px; height: 340px; background:rgba(255,255,255,.8); font-size: 1.286em; line-height: 1.5em; text-align: justify; padding: 30px 15px; margin: 50px 50px 50px 600px}
+#contentArea .content_area .content_top p>span{display: block; font-family: 'Nanum Gothic', sans-serif; font-size: 1.111em; margin-bottom: 10px}
+
+#contentArea .content_area section>h3{font-family: 'Nanum Gothic', sans-serif; font-size: 2.143em; text-transform: uppercase; text-align: center; margin-bottom: 50px;width: 100%; color: #33a8e4}
+
+/*탭 박스*/
+#contentArea .content_area .tab_menu{width: 1200px; margin: 0 auto}
+#contentArea .content_area .tab_menu ul{overflow: hidden}
+#contentArea .content_area .tab_menu li{float: left; text-align: center; background: #f2f2f2; font-size: 1.143em; width: 50%}
+#contentArea .content_area .tab_menu li a{display: block; padding: 20px}
+#contentArea .content_area .tab_menu li a:hover{color: #fff; background: #ff7d27; font-weight: bold; letter-spacing: -1px}
+#contentArea .content_area .tab_menu .spy{color: #fff; background: #ff7d27}
+#contentArea .content_area .nav_on{position: fixed; left: 0; top: 0; width: 100%; z-index: 30}
+
+/*특장점 탭*/
+#contentArea .content_area .virtue li{position: relative; overflow: hidden; margin-bottom: 100px; height: 600px}
+#contentArea .content_area .virtue li a{position: relative}
+#contentArea .content_area .virtue li:nth-of-type(odd) img{float: left; margin-left: 100px}
+#contentArea .content_area .virtue li:nth-of-type(even) img{float: right; margin-right: 100px}
+#contentArea .content_area .virtue dl{width: 550px; height: 290px; background: rgba(255,255,255,.8); border: 5px solid #ccc; transition: all .4s}
+#contentArea .content_area .virtue dt{font-size: 1.786em; margin-bottom: 20px; font-family: 'Nanum Gothic', sans-serif}
+#contentArea .content_area .virtue dd{font-size: 1.286em; line-height: 1.5em; text-align: justify}
+#contentArea .content_area .virtue li:nth-of-type(odd) dl{position: absolute; right: 100px; bottom: 0; text-align: right; padding: 100px 20px 0 20px}
+#contentArea .content_area .virtue li:nth-of-type(even) dl{position: absolute; left: 100px; bottom: 0; text-align: left; padding: 100px 20px 0 20px}
+
+/*hover*/
+#contentArea .content_area .virtue dl:hover{border: 5px solid #33a8e4; background: rgba(255,255,255,.9)}
+
+/*제품 및 가격 탭*/
+#contentArea .content_area .product section.dialog_box{position: relative; height: 982px}
+#contentArea .content_area .product h4{width: 1200px; height: 265px; font-family: 'Nanum Gothic', sans-serif; font-size: 2.413em; text-align: left; padding:70px 0 0 50px;color: #fff}
+#contentArea .content_area .product section>span{font-size: 1.429em; display: block; margin-top: 20px; color: #ff7d27; font-weight: 400;font-family: 'Nanum Gothic', sans-serif; position: absolute; left: 50px; top: 120px}
+#contentArea .content_area .product ul{overflow: hidden}
+#contentArea .content_area .product li{float: left; margin: 0 0 50px 214px}
+#contentArea .content_area .product dl{width: 279px; text-align: justify;height: 159px; margin-bottom: 30px}
+#contentArea .content_area .product dt{font-size: 1.429em; font-family: 'Nanum Gothic', sans-serif; margin-bottom: 20px}
+#contentArea .content_area .product dt>span{font-size: 0.8em; display: block; margin-top: 5px; color: #29bab3}
+#contentArea .content_area .product dd{font-size: 1.286em; line-height: 1.5em}
+#contentArea .content_area .product section ul li a{display: block; border: 1px solid #33a8e4; padding: 15px; border-top-left-radius: 25px; border-bottom-right-radius: 25px; width: 100px; margin: 0 auto; color: #33a8e4; font-size: 1.143em; transition: all .6s}
+#contentArea .content_area .product section:nth-of-type(1) h4{background: url(../images/content4/air_se.jpg) no-repeat}
+#contentArea .content_area .product section:nth-of-type(2) h4{background: url(../images/content4/air_smart.jpg) no-repeat}
+#contentArea .content_area .product section:nth-of-type(3) h4{background: url(../images/content4/air_iot.jpg) no-repeat}
+/*hover*/
+#contentArea .content_area .product section a:hover{color: #fff; background: #33a8e4}
+#contentArea .content_area .product img{transition: all .8s}
+#contentArea .content_area .product li:hover img{transform: scale(.9); cursor: pointer}
+/*dialog 박스*/
+#contentArea .content_area .dialog{width: 800px; height: 410px; padding: 10px; border: 1px solid #ccc; text-align: left; position: fixed; left: 50%; margin-left: -400px; top: 50%; margin-top: -200px; display: none; z-index: 20}
+#contentArea .content_area .dialog h5{font-family: 'Nanum Gothic', sans-serif; font-size: 1.429em; font-weight: 700; margin: 15px 0}
+#contentArea .content_area .dialog p{font-size: 1.143em; line-height: 1.5em}
+#contentArea .content_area .dialog p:nth-of-type(1){width: 290px; padding: 10px; background: #f2f2f2; margin-bottom: 10px}
+#contentArea .content_area .dialog span{display: block; margin-bottom: 10px}
+#contentArea .content_area .dialog span:nth-of-type(1){font-weight: bold}
+#contentArea .content_area .dialog span:nth-of-type(2){color: #ff7d27}
+#contentArea .content_area .dialog table{width: 290px; margin: 10px 0; border-top: 2px solid #333; border-bottom: 1px solid #ccc}
+#contentArea .content_area .dialog th{width: 50%; background: #f2f2f2; padding: 10px}
+#contentArea .content_area .dialog td{width: 50%; padding: 10px}
+#contentArea .content_area .dialog td span{display: inline; color: #33a8e4}
+#contentArea .content_area .dialog p:nth-of-type(3){color: #999}
+#contentArea .content_area .product .dialog .close_btn{display: block; text-indent: -9999px; background: url(../images/content4/close_btn.png) no-repeat; position: absolute; right: -0; top: 0; width: 30px; height: 30px}
+#wrap .box{width: 100%; height: 100%; background: rgba(0,0,0,.6);position: absolute; left: 0; top: 0;display: none; z-index: 10}

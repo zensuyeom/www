@@ -1,0 +1,27 @@
+body{background: #f2f2f2}
+#col2 h1{overflow: hidden}
+#col2 h1 a{display: block; text-indent: -99999px; background: url(../../common/images/mlogo.png) center no-repeat; width: 230px; height: 133px; margin: 50px auto; color: #fff; overflow: hidden; margin-top: 100px}
+#col2 ul{width: 1600px; margin: 0 auto; text-align: center}
+#col2 ul li{margin: 20px 0}
+#col2 ul li input{width: 330px; margin: 0 auto; padding: 15px 10px; font-size: 1.3em; border: 1px solid #ccc; outline: 0}
+#col2 ul li input:focus{border: 1px solid #0171bb}
+#col2 ul li button{display: block; width: 350px; margin: 0 auto; padding: 18px 0; border: none; background: #0171bb; color: #fff; font-size: 1.2em; cursor: pointer; letter-spacing: 1px}
+.log_btn{text-align: center; overflow: hidden; width: 370px; margin: 30px auto; line-height: 2em; padding: 5px 0}
+.log_btn p{font-size: 1.286em; color: #848484; float: left}
+.log_btn a{display: block; float: right; color: #0171bb; font-size: 1.5em; font-weight: bold; font-family: 'Nanum Gothic', sans-serif; padding-right: 5px; line-height: 1em}
+/*아이디비밀번호찾기*/
+#col2 .search{margin-top: 50px}
+#col2 .search>ul>li>a{display: block; font-size: 1.143em; margin-bottom: 20px}
+#col2 .search>ul>li>a>i{font-size: 1.3em; color: #0171bb}
+#col2 .search ul li form#passSearch, #col2 .search ul li form#searchId{display: none; margin-bottom: 20px}
+#col2 .search ul li form ul li label, .search ul li form ul li input{display: inline-block}
+#col2 .search ul li form ul{padding: 15px; background: rgba(1, 113, 187, .8); width: 600px; margin: 0 auto; border-radius: 15px}
+#col2 .search ul li form ul li label{font-size: 1.286em; width: 130px; font-family: 'Nanum Gothic', sans-serif; color: #fff; font-weight: 700}
+#col2 .search ul li form ul li input{width: 330px; font-size: 1em}
+#col2 .search ul li form ul li input.phone{width: 100px}
+#col2 .search ul li form ul li select.phone{width: 100px; padding: 15px; border-radius: 3px; border: 1px solid #dedede; outline: 0}
+#col2 .search ul li form button{width: 150px; border-radius: 30px; background: #fff; color: #0171bb; font-weight: bold; font-size: 1.143em}
+/*id찾기메세지*/
+#col2 .search #loadtext ul li{font-size: 1.143em; font-family: 'Nanum Gothic', sans-serif}
+#col2 .search #loadtext ul li:first-of-type{font-weight: 700}
+#col2 .search #loadtext .go_join{display: block; width: 100px; padding: 10px; background: #0171bb; color: #fff; font-size: 1.143em; border-radius: 10px; margin: 10px auto; font-weight: 700}

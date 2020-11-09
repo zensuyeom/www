@@ -1,0 +1,2 @@
+#content ul li:first-of-type, #content ul li:nth-of-type(4){width: 560px;background: #f2f2f2; border: none; padding: 20px; margin: 0 auto; text-align: left; font-weight: bold}
+#content ul li span{display: inline-block; font-weight: normal; font-size: .8em; line-height: 3.5em; color: #999}

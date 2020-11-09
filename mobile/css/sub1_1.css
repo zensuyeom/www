@@ -1,0 +1,34 @@
+/* 회사소개 */
+.main{background: url(../images/sub1_visual640.png) no-repeat center; background-size: cover; margin-top: 50px; height: 100px; text-align: center; overflow: hidden; margin-bottom: 25px}
+.main h3{font-family: 'Nanum Gothic', sans-serif; font-size: 1.714em; color: #fff; margin: 15px 0}
+.main p{font-family: 'Nanum Myeongjo', serif; color: #fff; font-weight: 700}
+
+#content .tabs .active{background: #33a8e4; color: #fff}
+
+#content{text-align: center}
+#content h2{font-family: 'Nanum Gothic', sans-serif; font-size: 2em; color: #33a8e4; font-weight: 700; margin-bottom: 10px}
+#content>span{display: block; text-transform: uppercase; font-family: 'Roboto', sans-serif; font-weight: bold; margin-bottom: 15px}
+#content .tabs{overflow: hidden; margin: 0 auto; margin-bottom: 15px}
+#content .tabs h3{float: left; width: 48%; margin: 0 1%}
+#content .tabs h3 a{display: block; padding: 10px; border: 1px solid #33a8e4; border-radius: 20px; width: 80px;float: left}
+#content .tabs h3:first-of-type a{float: right}
+#content .intro img{width: 280px; height: 173px; margin-bottom: 15px}
+#content .intro span{color: #ff7d27}
+#content .intro>p{font-family: 'Nanum Myeongjo', serif; font-size: 1.429em; width: 300px; margin: 0 auto; line-height: 1.5em; margin-bottom: 25px}
+#content .intro div{line-height: 1.5em; background: #f2f2f2; padding: 20px; text-align: justify}
+#content .intro div p:first-of-type{margin-bottom: 25px}
+#content .intro div p:nth-of-type(2){margin-bottom: 25px}
+
+/*연혁*/
+#content .history{position: relative; padding-bottom: 20px}
+#content .history ul{overflow: hidden; width: 80%; margin: 0 10%}
+#content .history ul li{float: left; width: 25%; background: #33a8e4; position: relative}
+#content .history ul li a{display: block; color: #fff; padding: 10px 0}
+#content .history .line{display: block; width: 1px; height: 100%; background: #33a8e4; position: absolute; left: 50%; top: 0}
+#content .history section{width: 80%; margin: 0 10%; overflow: hidden; position: relative}
+#content .history section h4{font-family: 'Nanum Gothic', sans-serif; font-size: 1.429em; width: 70px; height: 26px; background: #33a8e4; color: #fff; border-radius: 35px; padding: 22px 0; margin: 30px auto; font-weight: 700}
+#content .history section dl{position: relative; margin-bottom: 10px; width: 46%; margin: 0 2%}
+#content .history section:nth-of-type(odd) dl{text-align: right; left: 0}
+#content .history section:nth-of-type(even) dl{text-align: left; left: 50%}
+#content .history section dt{font-family: 'Nanum Gothic', sans-serif; font-size: 1.143em; color: #ff7d27; text-transform: uppercase; font-weight: 700; margin-bottom: 5px}
+#content .history section dd{margin-bottom: 3px; line-height: 1.5em}

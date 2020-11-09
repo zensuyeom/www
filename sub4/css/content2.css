@@ -1,0 +1,17 @@
+.content_area label, .content_area input, .content_area textarea{display: inline-block}
+.content_area label{width: 260px; padding: 20px; margin-right: 100px; font-family: 'Nanum Gothic', sans-serif; font-weight: 700; font-size: 1.429em}
+.content_area input{width: 600px; padding: 20px; outline: 0; border: 1px solid #dedede; font-size: 1.143em}
+.content_area textarea{width: 604px; padding: 20px; outline: 0; border: 1px solid #dedede; height: 300px; overflow: auto; resize: none; margin-left: 400px; border-radius: 3px}
+.content_area .form-group{border-bottom: 1px solid #828282; padding: 10px; position: relative}
+.content_area .row .send{border: 0}
+.content_area .top{border-top: 2px solid #828282}
+.content_area .message{position: absolute; top: 40%; left: 80px}
+.content_area input:focus{border: 1px solid #0171bb}
+.content_area textarea:focus{border: 1px solid #0171bb; font-size: 1.143em}
+.content_area .send_btn{width: 120px; padding: 10px 0; border: 0; background: #0171bb; cursor: pointer; color: #fff; font-size: 1.286em; font-weight: bold; border-radius: 10px; transition: all .9s}
+.content_area button:hover{color: #0171bb; background: #fff; border: 1px solid #0171bb}
+.content_area>div{background: #f2f2f2; padding: 50px 0; margin-bottom: 100px; border-bottom-left-radius: 50px; border-top-right-radius: 50px}
+.content_area>div p:first-of-type{font-size: 2em; margin-bottom: 30px; font-family: 'Nanum Gothic', sans-serif}
+.content_area>div p:first-of-type span:first-of-type{color: #0171bb}
+.content_area>div p:first-of-type span{color: #ff7d27}
+.content_area>div p:last-of-type{font-size: 1.143em}

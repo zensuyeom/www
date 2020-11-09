@@ -1,0 +1,16 @@
+/* 채용가이드 본문 */
+#contentArea .content_area div p>span{color: #ff7d27}
+#contentArea .content_area ol{overflow: hidden; border: 2px solid #33a8e4; padding: 50px 20px 20px 20px; margin-bottom: 100px}
+#contentArea .content_area li{float: left; width: 25%; font-size: 1.286em}
+#contentArea .content_area li>i{display: block; margin-bottom: 20px; font-size: 5em; color: #33a8e4}
+#contentArea .content_area li:nth-of-type(2)>i{margin-left: 30px}
+#contentArea .content_area li>span{display: block; margin-bottom: 10px; font-weight: bold}
+#contentArea .content_area li:nth-of-type(3)>span:last-of-type{font-weight: normal; color: #999; margin-bottom: 0; margin-top: 10px}
+#contentArea .content_area table{width: 100%; margin-bottom: 100px}
+#contentArea .content_area th{width: 30%; font-family: 'Nanum Gothic', sans-serif; font-size: 1.286em; padding: 20px; border: 1px solid #ccc}
+#contentArea .content_area thead th{padding: 30px; border-top: 2px solid #333; background: #f7f7f7}
+#contentArea .content_area thead th:first-of-type{border-bottom: none}
+#contentArea .content_area td{width: 35%; font-size: 1.143em; padding: 20px; line-height: 1.5em; border: 1px solid #ccc; border-right: none; border-top: none}
+#contentArea .content_area th:first-of-type{border-left: none}
+#contentArea .content_area th:last-of-type{border-right: none}
+#contentArea .content_area td>span{display: block}

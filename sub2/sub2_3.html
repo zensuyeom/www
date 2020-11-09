@@ -1,0 +1,94 @@
+<?
+    session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>세스코-의료시설</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub2common.css">
+    <link rel="stylesheet" href="css/content3.css">
+    
+    <script src="../common/js/prefixfree.min.js"></script>
+    <script src="https://kit.fontawesome.com/c56cffabac.js" crossorigin="anonymous"></script>
+
+    <!--[if IE9]>  
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <? include "../common/sub_head.html"?>  
+    <? $_GET['num']=3; include "common/sub_nav.html"; ?>
+    <!-- 본문콘텐츠영역 -->
+        <article id="contentArea">
+            <div class="title_area">
+                <div class="line_map">
+                    <span>home&gt;</span>
+                    <span>서비스&gt;</span>
+                    <span>의료시설</span>
+                </div>
+                <h2>의료시설</h2>
+                <span>medical facility</span>
+            </div>
+            <div class="content_area">
+               <p>환자와 직원의 <span>건강</span>을 지키는, 첨단 위생 시스템</p>
+                <section>
+                    <h3>자동공간 항균기</h3>
+                    <span>세균제어</span>
+                    <img src="images/content3/airgienic.jpg" alt="">
+                    <dl>
+                        <dt>에어제닉<span>퀘적하고 청결한 실내공간을 책임지는 자동공간항균기</span></dt>
+                        <dd>- 실내 공기 소독 및 강력한 탈취력</dd>
+                        <dd>- 감각적이면서 실용적으로 세련된 디자인</dd>
+                        <dd>- 쉽고 간단한 설치</dd>
+                        <dd>- 조용히 내 마음대로 조절한다. 고성능 디펜서</dd>
+                    </dl>
+                </section>
+                <section>
+                    <h3>자동손세정기</h3>
+                    <span>세균제거, 보습효과</span>
+                    <img src="images/content3/handgienic.jpg" alt="">
+                    <dl>
+                        <dt>핸드제닉<span>자동으로 거품형 세정제가 토출되는 자동 손 세정기</span></dt>
+                        <dd>- 자동센서 방식으로 일반 고형/액체 비누 사용시 접촉으로 인<span>한 교차오염 예방</span></dd>
+                        <dd>- 손에 서식하는 유해세균 대장균, 황색포도상구균 살균<span class="confirm">(한국화학융합시험연구원 공인시험 완료)</span></dd>
+                        <dd>- 피부질환, 호르몬교란을 일으킬 수 있는 트리콜로산 및 환경<span>유해물질 11종 미포함</span><span class="confirm">(한국화학융합시험연구원 공인시험 완료)</span></dd>
+                    </dl>
+                </section>
+                <section>
+                    <h3>새니제닉</h3>
+                    <span>물없이 세균제거</span>
+                    <img src="images/content3/sanigienic.jpg" alt="">
+                    <dl>
+                        <dt>새니제닉<span>물 없이 유해세균 제거하는 자동 손 소독기</span></dt>
+                        <dd>- 끈적임 없는 폼, 겔 타입의 소독제</dd>
+                        <dd>- 손에 서식하는 유해세균 대장균, 황색포도상구균 살균<span class="confirm">(한국화학융합시험연구원 공인시험 완료)</span></dd>
+                        <dd>- 식품의약품안전처 허가 완료</dd>
+                    </dl>
+                </section>
+                <section>
+                    <h3>변기세정기</h3>
+                    <span>세균제거, 탈취</span>
+                    <img src="images/content3/freshgienic.jpg" alt="">
+                    <dl>
+                        <dt>프레쉬제닉<span>쾌적한 화장실을 책임지는 프레쉬제닉</span></dt>
+                        <dd>- 위생관리 안심</dd>
+                        <dd>- 악취 안심</dd>
+                        <dd>- 인테리어 안심</dd>
+                    </dl>
+                </section>
+                <a href="#">서비스 신청하기</a>
+            </div>
+        </article>
+    <!-- 푸터공통영역-->
+    <? include "../common/sub_foot.html"?>
+</body>
+</html>

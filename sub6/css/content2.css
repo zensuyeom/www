@@ -1,0 +1,53 @@
+/* 인사제도 본문 */
+#contentArea .content_area div p{letter-spacing: -1px}
+#contentArea .content_area div p>span{color: #ff7d27}
+#contentArea .content_area h3{font-family: 'Nanum Gothic', sans-serif; font-size: 2.857em; margin-bottom: 50px; text-align: left; text-indent: 30px; position: relative}
+#contentArea .content_area h3::before{content: ''; display: block; width: 10px; height: 10px; background: #33a8e4; border-radius: 5px; position: absolute; left: 0; top: 15px}
+#contentArea .content_area section{margin-bottom: 100px}
+#contentArea .content_area section:first-of-type ul{overflow: hidden}
+#contentArea .content_area section:first-of-type li{float: left; width: 300px; font-family: 'Nanum Gothic', sans-serif; font-size: 1.429em; height: 400px}
+#contentArea .content_area section:first-of-type li:first-of-type{margin: 0 100px 0 50px; position: relative; padding-top: 180px}
+#contentArea .content_area section:first-of-type li:first-of-type::before{content: '';display: block; width: 300px; height: 300px; background: #33a8e4; border-radius: 150px; position: absolute; top: 50px; left: 0; z-index: -1; box-shadow: 3px 3px 5px 5px #ccc}
+#contentArea .content_area section:first-of-type li:last-of-type{margin: 0 50px 0 100px; position: relative; padding-top: 180px}
+#contentArea .content_area section:first-of-type li:last-of-type::before{content: '';display: block; width: 300px; height: 300px; background: #33a8e4; border-radius: 150px; position: absolute; top: 50px; left: 0; z-index: -1; box-shadow: 3px 3px 5px 5px #ccc}
+#contentArea .content_area section:first-of-type dl{background: #ff7d27; padding: 40px 0; border-radius: 40px; position: relative; box-shadow: 3px 3px 5px 5px #ccc}
+#contentArea .content_area section:first-of-type dl::before{content: ''; display: block; width: 100px; height: 3px; background: #ccc; position: absolute; left: -100px; top: 190px}
+#contentArea .content_area section:first-of-type dl::after{content: ''; display: block; width: 100px; height: 3px; background: #ccc; position: absolute; right: -100px; top: 190px}
+#contentArea .content_area section:first-of-type dt{margin-bottom: 50px}
+#contentArea .content_area section:first-of-type dd{font-size: 0.8em;margin-bottom: 40px; position: relative}
+#contentArea .content_area section:first-of-type i{font-size: 50px;position: absolute; left: 50px; top: -5px; display: block}
+#contentArea .content_area section:first-of-type span{display: block; margin-left: 10px; line-height: 1.5em; text-transform: uppercase}
+#contentArea .content_area section:last-of-type{overflow: hidden}
+#contentArea .content_area section:last-of-type dl{float: left; width: 300px}
+#contentArea .content_area section:last-of-type dl:first-of-type{margin: 0 100px 0 50px}
+#contentArea .content_area section:last-of-type dl:last-of-type{margin: 0 50px 0 100px}
+#contentArea .content_area section:last-of-type dt{font-family: 'Nanum Gothic', sans-serif; font-size: 1.429em; margin-bottom: 50px; border-radius: 30px; padding: 20px}
+#contentArea .content_area section:last-of-type dl:first-of-type dt{background: #33a8e4}
+#contentArea .content_area section:last-of-type dl:nth-of-type(2) dt{background: #ff7d27}
+#contentArea .content_area section:last-of-type dl:last-of-type dt{background: #29bab3}
+#contentArea .content_area section:last-of-type dd{width: 60px; border-radius: 50px; padding: 40px 20px; margin-bottom: 40px; margin-left: 100px; box-shadow: 2px 2px 1px 1px #f2f2f2; text-transform: uppercase}
+#contentArea .content_area section:last-of-type dd{position: relative}
+#contentArea .content_area section:last-of-type dl:first-of-type dd:nth-of-type(1){background: rgba(51,168,228,.1); position: relative}
+#contentArea .content_area section:last-of-type dl dd:first-of-type::after{content: ''; display: block; width: 3px; height: 40px; background: #ccc; position: absolute; left: 50px; top: 95px}
+#contentArea .content_area section:last-of-type dl dd:nth-of-type(2)::after{content: ''; display: block; width: 3px; height: 40px; background: #ccc; position: absolute; left: 50px; top: 95px}
+#contentArea .content_area section:last-of-type dl dd:nth-of-type(3)::after{content: ''; display: block; width: 3px; height: 40px; background: #ccc; position: absolute; left: 50px; top: 95px}
+#contentArea .content_area section:last-of-type dl:first-of-type dd:nth-of-type(4)::after{content: ''; display: block; width: 3px; height: 40px; background: #ccc; position: absolute; left: 50px; top: 95px}
+#contentArea .content_area section:last-of-type dl:first-of-type dd:nth-of-type(5)::after{content: ''; display: block; width: 3px; height: 40px; background: #ccc; position: absolute; left: 50px; top: 95px}
+#contentArea .content_area section:last-of-type dl:nth-of-type(2) dd:nth-of-type(4)::after{content: ''; display: block; width: 3px; height: 40px; background: #ccc; position: absolute; left: 50px; top: 95px}
+#contentArea .content_area section:last-of-type dl:nth-of-type(2) dd:nth-of-type(5)::after{content: ''; display: block; width: 3px; height: 40px; background: #ccc; position: absolute; left: 50px; top: 95px}
+#contentArea .content_area section:last-of-type dl:first-of-type dd:nth-of-type(2){background: rgba(51,168,228,.2)}
+#contentArea .content_area section:last-of-type dl:first-of-type dd:nth-of-type(3){background: rgba(51,168,228,.4)}
+#contentArea .content_area section:last-of-type dl:first-of-type dd:nth-of-type(4){background: rgba(51,168,228,.6)}
+#contentArea .content_area section:last-of-type dl:first-of-type dd:nth-of-type(5){background: rgba(51,168,228,.8)}
+#contentArea .content_area section:last-of-type dl:first-of-type dd:nth-of-type(6){background: #33a8e4}
+#contentArea .content_area section:last-of-type dl:nth-of-type(2) dd:nth-of-type(1){width: 70px; background: rgba(255,125,39,.1); border-radius: 50px; padding: 40px 15px; margin-bottom: 40px}
+#contentArea .content_area section:last-of-type dl:nth-of-type(2) dd:nth-of-type(1){width: 70px; background: rgba(255,125,39,.1); border-radius: 50px; padding: 40px 15px; margin-bottom: 40px}
+#contentArea .content_area section:last-of-type dl:nth-of-type(2) dd:nth-of-type(2){width: 70px; background: rgba(255,125,39,.2); border-radius: 50px; padding: 40px 15px; margin-bottom: 40px}
+#contentArea .content_area section:last-of-type dl:nth-of-type(2) dd:nth-of-type(3){width: 70px; background: rgba(255,125,39,.4); border-radius: 50px; padding: 40px 15px; margin-bottom: 40px}
+#contentArea .content_area section:last-of-type dl:nth-of-type(2) dd:nth-of-type(4){width: 70px; background: rgba(255,125,39,.6); border-radius: 50px; padding: 40px 15px; margin-bottom: 40px}
+#contentArea .content_area section:last-of-type dl:nth-of-type(2) dd:nth-of-type(5){width: 70px; background: rgba(255,125,39,.8); border-radius: 50px; padding: 40px 15px; margin-bottom: 40px}
+#contentArea .content_area section:last-of-type dl:nth-of-type(2) dd:nth-of-type(6){width: 70px; background: #ff7d27; border-radius: 50px; padding: 40px 15px; margin-bottom: 40px}
+#contentArea .content_area section:last-of-type dl:nth-of-type(3) dd:nth-of-type(1){width: 70px; background: rgba(41,168,179,.2); border-radius: 50px; padding: 40px 15px; margin-bottom: 40px}
+#contentArea .content_area section:last-of-type dl:nth-of-type(3) dd:nth-of-type(2){width: 70px; background: rgba(41,168,179,.4); border-radius: 50px; padding: 40px 15px; margin-bottom: 40px}
+#contentArea .content_area section:last-of-type dl:nth-of-type(3) dd:nth-of-type(3){width: 70px; background: rgba(41,168,179,.6); border-radius: 50px; padding: 40px 15px; margin-bottom: 40px}
+#contentArea .content_area section:last-of-type dl:nth-of-type(3) dd:nth-of-type(4){width: 70px; background: #29bab3; border-radius: 50px; padding: 40px 15px; margin-bottom: 40px}

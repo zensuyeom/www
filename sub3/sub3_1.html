@@ -1,0 +1,104 @@
+<?
+    session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>세스코-인사말</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub3common.css">
+    <link rel="stylesheet" href="css/content1.css">
+    
+    <script src="../common/js/prefixfree.min.js"></script>
+    <script src="https://kit.fontawesome.com/c56cffabac.js" crossorigin="anonymous"></script>
+
+    <!--[if IE9]>  
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <? include "../common/sub_head.html"?>
+    <? $_GET['num']=1; include "common/sub_nav.html"; ?>
+    <!-- 본문콘텐츠영역 -->
+        <article id="contentArea">
+            <div class="title_area">
+                <div class="line_map">
+                    <span>home&gt;</span>
+                    <span>세스코쇼핑&gt;</span>
+                    <span>세스케어란?</span>
+                </div>
+                <h2>세스케어란?</h2>
+                <span>cesco care</span>
+            </div>
+            <div class="content_area">
+                <section>
+                    <h3>cesco care</h3>
+                    <span>환경위생을 생각하는</span>
+                    <p>지난 41여 년 간 해충방제 서비스를 통해 축적된 세스코만의 최적의 환경위생용품 솔루션으로서, 다양한 주방시설의 환경 문제에 대한 최적의 해결을 위해 가장 안전하고 효과적인 케미컬 솔루션 (세정제 · 살균제)과 클리닝 솔루션 (기름때 제거 및 이물질 · 오염 제거 도구)을 제안해 드리는 맞춤형 환경위생용품 솔루션 입니다.</p>
+                </section>
+                <section>
+                    <h4 class="hide"><a href="javascript:void(0);">세스코 환경 위생 솔루션<span>▼</span></a>
+                    <span class="border_top"></span>
+                    <span class="border_right"></span>
+                    <span class="border_bottom"></span>
+                    <span class="border_left"></span>
+                    </h4>
+                    <div class="substance">
+                        <img src="images/content1/substance1.jpg" alt="">
+                        <p>- 업종별 · 환경별 발생되는 다양한 위생문제에 대한 최적의 솔루션 제공</p>
+                        <p>- 2,193가지 해충 맞춤 방제 솔루션, 3,127가지 식품안전 솔루션의 고객별 맞춤형 환경위생 솔루션 보유</p>
+                    </div>
+                </section>
+                <section>
+                    <h4 class="hide"><a href="javascript:void(0);">통합 모니터링 시스템<span>▼</span></a>
+                    <span class="border_top"></span>
+                    <span class="border_right"></span>
+                    <span class="border_bottom"></span>
+                    <span class="border_left"></span>
+                    </h4>
+                    <div class="substance">
+                        <img src="images/content1/substance2.jpg" alt="">
+                        <p>- 세스코의 대표적인 솔루션인 해충 방제 솔루션 및 토탈 식품안전 솔루션, 항균안전 솔루션에 이르는 광범위한 통합 모니터링 시스템</p>
+                    </div>
+                </section>
+                <section>
+                    <h4 class="hide"><a href="javascript:void(0);">환경위생 컨설팅<span>▼</span></a>
+                    <span class="border_top"></span>
+                    <span class="border_right"></span>
+                    <span class="border_bottom"></span>
+                    <span class="border_left"></span>
+                    </h4>
+                    <div class="substance">
+                        <img src="images/content1/substance3.jpg" alt="">
+                        <p>- 세스코 환경위생 전문가의 통합 모니터링 시스템 기반의 체계적이고 표준화된 체크리스트를 통해 고객의 환경위생 문제 진단</p>
+                        <p>- 환경위생 전문가의 진단 소견과 고객상담을 통한 최적의 솔루션 도출</p>
+                    </div>
+                </section>
+                <section>
+                    <h4 class="hide"><a href="javascript:void(0);">고객 맞춤 솔루션<span>▼</span></a>
+                    <span class="border_top"></span>
+                    <span class="border_right"></span>
+                    <span class="border_bottom"></span>
+                    <span class="border_left"></span>
+                    </h4>
+                    <div class="substance">
+                        <img src="images/content1/substance4.jpg" alt="">
+                        <p>- 다양한 제품과 솔루션을 통해 고객별 맞춤 솔루션을 제공</p>
+                        <p>- 케미컬과 클리닝 도구의 제안을 넘어 메뉴얼과 현장 교육 프로그램 제공</p>
+                    </div>
+                </section>
+            </div>
+        </article>
+    <!-- 푸터공통영역-->
+   <? include "../common/sub_foot.html"?>
+   <script src="js/content1.js"></script>
+</body>
+</html>

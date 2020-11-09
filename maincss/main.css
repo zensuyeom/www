@@ -1,0 +1,116 @@
+.box{margin-bottom: 100px}
+.visual{position: relative; width:2000px; margin-left: -1000px; left: 50%; top: 0; margin-top: 131px; height: 750px; overflow: hidden}
+.visual a{display: block}
+.visual .gallery{width: 6000px; position: relative}
+.visual .gallery ul{overflow: hidden}
+.visual .gallery li{float: left}
+.visual .visual_text{width: 2000px; position: absolute; left: 50%; top: 190px; overflow: hidden; margin-left: -1000px}
+.visual .visual_text li{font-family: 'Naum Gothic'; background: rgba(0,0,0,.4); height: 320px; display: none}
+.visual .visual_text img{float: left; margin: 55px 60px 0 500px}
+.visual .visual_text p:nth-child(2){font-size: 3.5em; font-weight: 400; color: #fff; line-height: 2.857em;margin-top: 40px}
+.visual .visual_text p:nth-child(3){font-size: 2em; font-weight: 400; color: #fff; line-height: 1.5em;font-family: 'Nanum Myeongjo', serif}
+.visual .dock{position: absolute; width: 2000px; left: 50%; margin-left: -100px; bottom: 50px}
+.visual .dock .mbutton{display: block; width: 24px; height: 24px; background: #fff; border-radius: 12px; float: left; cursor:pointer; transition: all .4s; margin-right: 30px}
+.visual .dock .ps{background: url(../images/stop_button.png); display: block; width: 24px; height: 24px; margin-left: 180px; cursor:pointer}
+
+#contentArea{width: 1200px; margin: 0 auto}
+#contentArea h3{font-family: 'Roboto'; font-weight: 700; font-size: 2.571em; text-transform: uppercase; text-align: center; margin-bottom: 20px}
+#contentArea h3>a{color: #33a8e4}
+#contentArea ul{overflow: hidden;}
+
+#contentArea .report_box{overflow: hidden;margin: 0 50px 100px 50px}
+#contentArea .report_box a{display: block; height: 300px}
+#contentArea .report_box h3{color: #fff; font-family: 'Naum Gothic';text-align: center; margin-top: 70px; margin-bottom: 10px}
+#contentArea .report_box section{float: left; width: 366px; height: 300px; position: relative}
+#contentArea .report_box section:nth-of-type(1){background: #33a8e4}
+#contentArea .report_box section:nth-of-type(2){background: #ff7d27}
+#contentArea .report_box section:nth-of-type(3){background: #29bab3}
+#contentArea .report_box section{text-align: center}
+#contentArea .report_box a>span{color: #fff; border-top: 1px solid #fff; border-bottom: 1px solid #fff; display: block; width: 105px; padding: 5px 0; margin: 0 auto; margin-bottom: 30px; font-family: 'Roboto'; text-transform: capitalize}
+#contentArea .report_box p{font-family: 'Nanum Myeongjo';color: #fff; text-align: center; line-height: 2em; font-size: 1.143em}
+#contentArea .report_box section:nth-of-type(1) p{text-align: justify;line-height: 1.5em; padding: 0 60px}
+
+/*span border hover*/
+#contentArea .report_box .border_top{display: block;top: 0; width: 0%; height: 20px; background: #fcff00; position: absolute; transition: width .2s; transition-delay: .3s}
+#contentArea .report_box section:hover span.border_top{width: 100%; transition-delay: 0s}
+
+#contentArea .report_box .border_right{display: block; width: 20px; height: 0%; background: #fcff00; position: absolute; top: 0; right: 0; transition: height .2s; transition-delay: .2s}
+#contentArea .report_box section:hover span.border_right{height: 100%; transition-delay: .1s}
+
+#contentArea .report_box .border_bottom{display: block; right: 0; bottom: 0; width: 0%; height: 20px; background: #fcff00; position: absolute; transition: width .2s; transition-delay: .1s}
+#contentArea .report_box section:hover span.border_bottom{width: 100%; transition-delay: .2s}
+
+#contentArea .report_box .border_left{display: block; width: 20px; height: 0%; background: #fcff00; position: absolute; bottom: 0; left: 0; transition: height .2s; transition-delay: 0s}
+#contentArea .report_box section:hover span.border_left{height: 100%; transition-delay: .3s}
+
+#contentArea .service{width: 1200px}
+#contentArea .service ul{width: 1110px; margin: 0 auto}
+#contentArea .service h3{margin-bottom: 50px}
+#contentArea .service img{transition: all .5s; transform-origin: right center}
+#contentArea .service ul li:nth-child(2) img{transform-origin: left center}
+#contentArea .service img:hover{transform: scale(1.1); opacity: .9}
+#contentArea .service li{overflow: hidden; margin-bottom: 50px; height: 450px; float: left; background: #fbfbfb; box-shadow: 2px 2px 6px 2px #ccc; border-bottom-right-radius: 100px; border-top-left-radius: 100px; position: relative; right: -1200px; top: 0; opacity: 0; transition: all .8s}
+#contentArea .service .left_move{left: -1200px}
+#contentArea .service .box_rmove{right: 0; opacity: 1}
+#contentArea .service .box_lmove{left: 0; opacity: 1}
+#contentArea .service li:nth-of-type(1) img{float: left}
+#contentArea .service li:nth-of-type(2) img{float: right}
+#contentArea .service li:nth-of-type(3) img{float: left}
+#contentArea .service li:nth-of-type(1) dl{float: right}
+#contentArea .service li:nth-of-type(2) dl{float: left}
+#contentArea .service li:nth-of-type(3) dl{float: right}
+#contentArea .service dl{width: 550px}
+#contentArea .service dt{margin: 50px 100px 30px 100px; font-family: 'Nanum Gothic'; font-size: 1.714em; font-weight: 700}
+#contentArea .sub_title{margin-bottom: 30px; font-size: 1.286em; font-family: 'Nanum Myeongjo'}
+#contentArea .service li:nth-of-type(2) dd{letter-spacing: -.5px}
+#contentArea .service dd{margin: 50px 100px; line-height: 2em; font-size: 1.143em}
+#contentArea .service li a{display: block; color: #666}
+#contentArea .service li:nth-of-type(1) a{margin-left: 650px}
+#contentArea .service li:nth-of-type(2) a{margin-left: 100px}
+#contentArea .service li:nth-of-type(3) a{margin-left: 650px}
+
+#contentArea .care{width: 1200px; overflow: hidden}
+#contentArea .care li{float: left}
+#contentArea .care img{margin-bottom: 20px}
+#contentArea .care p{font-family: 'Nanum Myeongjo'; font-size: 1.143em; margin-bottom: 20px; text-align: center}
+#contentArea .care>ul{height: 25px; background: #f2f2f2; width: 1100px; margin: 0 50px 20px 50px;padding: 15px 0;}
+#contentArea .care>ul a{display: block; color: #ff7d27}
+#contentArea .care>ul li{margin: 5px 0; padding: 0 10px}
+#contentArea .care>ul li:nth-of-type(1){border-right: 1px solid #ff7d27; margin-left: 380px}
+#contentArea .care>ul li:nth-of-type(2){border-right: 1px solid #ff7d27}
+#contentArea .care .content_list ul{margin: 0 100px; width: 1200px}
+#contentArea .care .content_list ul li{width: 30%}
+#contentArea .care span{display: block; width: 270px; text-align: center; margin-bottom: 20px}
+#contentArea .care a>span:nth-of-type(1){font-weight: bold}
+#contentArea .care span span{display: inline; color: #ff7d27}
+#contentArea .members_price{color: #33a8e4}
+#contentArea .care i{font-size: 4em; color: #999; display: block; margin-top: 93px}
+#contentArea .care .on{font-weight: bold; letter-spacing: -1px}
+#contentArea .care .content_list ul{display: none}
+
+/*care hover*/
+#contentArea .care>ul li:hover{font-weight: bold; letter-spacing: -1px}
+#contentArea .care .content_list ul img{transform: scale(1); transition: all,.4s}
+#contentArea .care .content_list ul img:hover{transform: scale(.9)}
+#contentArea .care .content_list a>span:nth-of-type(1):hover{color: #29bab3}
+
+#contentArea .notice{width: 1200px}
+#contentArea .notice ul{margin: 0 150px 30px 150px}
+#contentArea .notice li{overflow: hidden; border-bottom: 1px solid #999; padding: 30px 0}
+#contentArea .notice li:nth-of-type(1){border-top: 1px solid #33a8e4}
+#contentArea .notice span{display: block; float: left ; font-size: 1.286em}
+#contentArea .notice li span:nth-of-type(1){margin-right: 100px; width: 100px; margin-left: 20px}
+#contentArea .notice li span:nth-of-type(3){float: right; margin-right: 50px}
+#contentArea .notice>a{display: block; width: 170px; border: 1px solid #999; border-radius: 20px; margin: 0 500px; text-align: center; padding: 10px 0; color: #666}
+
+/*notice hover*/
+#contentArea .notice li:hover span:nth-of-type(1){font-weight: bold; letter-spacing: -1px}
+#contentArea .notice li:hover span:nth-of-type(2){border-bottom: 1px solid #ff7d27; color: #ff7d27}
+#contentArea .notice li:hover span:nth-of-type(3){color: #ff7d27}
+#contentArea .notice>a{transition: all .5s}
+#contentArea .notice>a:hover{color: #fff; background: #33a8e4}
+
+
+
+
+

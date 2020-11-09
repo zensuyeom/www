@@ -1,0 +1,55 @@
+<?
+    session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>세스코-인사말</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub5common.css">
+    <link rel="stylesheet" href="css/content3.css">
+    
+    <script src="../common/js/prefixfree.min.js"></script>
+    <script src="https://kit.fontawesome.com/c56cffabac.js" crossorigin="anonymous"></script>
+
+    <!--[if IE9]>  
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <? include "../common/sub_head.html"?>
+    <? $_GET['num']=3; include "common/sub_nav.html"; ?>
+    <!-- 본문콘텐츠영역 -->
+        <article id="contentArea">
+            <div class="title_area">
+                <div class="line_map">
+                    <span>home&gt;</span>
+                    <span>공지사항&gt;</span>
+                    <span>홍보영상</span>
+                </div>
+                <h2>홍보영상</h2>
+                <span>promotion video</span>
+            </div>
+            <div class="content_area">
+                <ul>
+                    <li><iframe width="560" height="315" src="https://www.youtube.com/embed/No2acVT2xdY"  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="세스코푸드 홍보영상"></iframe><span>세스코 Food Safety – 믿고먹는 세상의 시작, 화이트 세스코</span></li>
+                    <li><iframe width="560" height="315" src="https://www.youtube.com/embed/v7t8WM1lGio"  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="바퀴별 맞춤처방 동영상"></iframe><span>해충 없이 사는 법  - 바퀴별 맞춤처방 편 (바퀴벌레)</span></li>
+                    <li><iframe width="560" height="315" src="https://www.youtube.com/embed/i4898veihvo"  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="아이폰과 연결방법"></iframe><span>세스코 Air IoT 재연결 가이드(아이폰)</span></li>
+                    <li><iframe width="560" height="315" src="https://www.youtube.com/embed/vgoctt4qSBg"  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="안드로이드 핸드폰 연결방법"></iframe><span>세스코 Air IoT 재연결 가이드(안드로이드)</span></li>
+                    <li><iframe width="560" height="315" src="https://www.youtube.com/embed/-rjqUYN5JIs"  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="주방세제 사용법"></iframe><span>세스케어 주방세제 제품사용방법</span></li>
+                    <li><iframe width="560" height="315" src="https://www.youtube.com/embed/keZZxI_4Gys"  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="곰팡이 제거제 사용법"></iframe><span>세스케어 곰팡이제거 파워젤 제품사용방법</span></li>
+                </ul>
+            </div>
+        </article>
+    <!-- 푸터공통영역-->
+<? include "../common/sub_foot.html"?>
+</body>
+</html>

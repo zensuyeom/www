@@ -1,0 +1,32 @@
+/* 케미컬,클리닝 제품 본문 */
+#contentArea .content_area div{width: 2000px; margin-left: -400px; background: url(../images/content2/visual.jpg) no-repeat; height: 450px; margin-bottom: 150px}
+#contentArea .content_area p{width: 500px; height: 450px; margin: 0 auto; font-size: 1.143em; line-height: 2em; color: #333; background: rgba(255,255,255,.9); text-align: justify; padding: 50px}
+#contentArea .content_area p>span{display: block; margin-bottom: 50px; font-family: 'Nanum Myeongjo', serif; position: relative; font-size: 1.429em; padding-left: 70px}
+#contentArea .content_area p>span::after{content: ""; display: block; width: 300px; height: 1px; background: #999; position: absolute; left: 100px; top: -5px}
+#contentArea .content_area p>span::before{content: ""; display: block; width: 300px; height: 1px; background: #999; position: absolute; left: 100px; bottom: -5px}
+#contentArea .content_area ul{overflow: hidden; margin: 0 100px}
+#contentArea .content_area li{float: left; width: 280px; margin-bottom: 50px}
+#contentArea .content_area li:nth-of-type(2){margin: 0 50px}
+#contentArea .content_area li:nth-of-type(5){margin: 0 50px}
+#contentArea .content_area li:nth-of-type(8){margin: 0 50px}
+#contentArea .content_area a{display: block; position: relative; padding: 10px; cursor: pointer}
+#contentArea .content_area img{transform: scale(1);transition: all .8s; margin-bottom: 20px}
+#contentArea .content_area dt{font-family: 'Nanum Gothic', sans-serif; font-size: 1.286em; margin-bottom: 20px; border-bottom: 1px solid #ccc; padding-bottom: 5px}
+#contentArea .content_area li:nth-of-type(1) dt{letter-spacing: -1px}
+#contentArea .content_area li:nth-of-type(4) dt{letter-spacing: -1px}
+#contentArea .content_area li:nth-of-type(5) dt{letter-spacing: -3px}
+#contentArea .content_area li:nth-of-type(7) dt{letter-spacing: -3px}
+#contentArea .content_area li:nth-of-type(9) dt{letter-spacing: -2px}
+#contentArea .content_area dd{line-height: 1.5em; font-size: 1.143em}
+#contentArea .content_area dd:first-of-type span{color: #ff7d27}
+#contentArea .content_area dd:last-of-type span{color: #33a8e4}
+/*hover*/
+#contentArea .content_area a:hover img{transform: scale(.9)}
+#contentArea .content_area a .border_top{display: block; left: 0; top: 0; width: 0%; height: 5px; background: #ff7d27; position: absolute; transition: width .2s; transition-delay: .4s}
+#contentArea .content_area a:hover .border_top{width: 100%; transition-delay: 0s}
+#contentArea .content_area a .border_right{display: block; width: 5px; height: 0%; background: #ff7d27; position: absolute; right: 0; top: 0; transition: height .2s; transition-delay: .3s}
+#contentArea .content_area a:hover .border_right{height: 100%; transition-delay: .1s}
+#contentArea .content_area a .border_bottom{display: block; width: 0%; height: 5px; background: #ff7d27; position: absolute; right: 0; bottom: 0; transition: width .2s; transition-delay: .2s}
+#contentArea .content_area a:hover .border_bottom{width: 100%; transition-delay: .2s}
+#contentArea .content_area a .border_left{display: block; width: 5px; height: 0%; background: #ff7d27; position: absolute; left: 0; bottom: 0; transition: height .2s; transition-delay: .1s}
+#contentArea .content_area a:hover .border_left{height: 100%; transition-delay: .3s}

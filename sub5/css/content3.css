@@ -1,0 +1,5 @@
+/* 홍보영상 본문 */
+#contentArea .content_area ul{overflow: hidden}
+#contentArea .content_area li{float: left; margin-bottom: 100px}
+#contentArea .content_area li:nth-of-type(odd){margin-right: 80px}
+#contentArea .content_area span{display: block; margin-top: 20px; font-family: 'Nanum Gothic', sans-serif; font-size: 1.286em}

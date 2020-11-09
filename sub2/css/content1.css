@@ -1,0 +1,12 @@
+/* 가정집 본문 */
+#contentArea .content_area{}
+#contentArea .content_area ol{overflow: hidden; width: 1100px; margin: 0 auto}
+#contentArea .content_area li{float: left; height: 400px; width: 500px; margin-bottom: 100px; position: relative; overflow: hidden}
+#contentArea .content_area li:nth-of-type(odd){margin-right: 100px}
+#contentArea .content_area img{}
+#contentArea .content_area dl{width: 500px; height: 400px; position: absolute; left: 0; top: 330px; color: #fff; background: rgba(0,0,0,.4); transition: all .8s}
+#contentArea .content_area dt{font-size: 1.786em; font-weight: bold; margin-bottom: 20px; margin-top: 20px}
+#contentArea .content_area dd{font-size: 1.286em; line-height: 2em; text-align: justify; margin-left: 30px}
+#contentArea .content_area dd span{display: block; margin-left: 15px}
+/* hover효과 */
+#contentArea .content_area li:hover dl{top: 0; background: rgba(0,0,0,.8)}

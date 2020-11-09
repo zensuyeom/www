@@ -1,0 +1,95 @@
+<?
+    session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>세스코-인사말</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub6common.css">
+    <link rel="stylesheet" href="css/content2.css">
+    
+    <script src="../common/js/prefixfree.min.js"></script>
+    <script src="https://kit.fontawesome.com/c56cffabac.js" crossorigin="anonymous"></script>
+
+    <!--[if IE9]>  
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body>
+     
+    <? include "../common/sub_head.html"?>
+    <? $_GET['num']=2; include "common/sub_nav.html"; ?>
+    <!-- 본문콘텐츠영역 -->
+        <article id="contentArea">
+            <div class="title_area">
+                <div class="line_map">
+                    <span>home&gt;</span>
+                    <span>인재채용&gt;</span>
+                    <span>인사제도</span>
+                </div>
+                <h2>인사제도</h2>
+                <span>personnel management system</span>
+            </div>
+            <div class="content_area">
+                <div>
+                   <p>세스코는 인재를 중시하며,<span>합리적이고 공정한 인사제도와 정책을 수립</span>하고 있습니다.</p>
+                </div>
+                <section>
+                    <h3>인재육성</h3>
+                    <ul>
+                        <li>다양성을 존중하는 열린채용</li>
+                        <li>
+                            <dl>
+                                <dt>인재채용</dt>
+                                <dd><i class="fas fa-user-check"></i><span>인재 <br>person</span></dd>
+                                <dd><i class="fas fa-briefcase"></i><span>일 <br>job</span></dd>
+                                <dd><i class="fas fa-star"></i><span>보상관리<br>reward&amp; <br>management</span></dd>
+                                <dd><i class="fas fa-check"></i><span>평가<br>evalution</span></dd>
+                            </dl>
+                        </li>
+                        <li>미래를 선도하는 전문가 배출</li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>승진제도</h3>
+                    <dl>
+                        <dt>관리사무직</dt>
+                        <dd>사원</dd>
+                        <dd>주임</dd>
+                        <dd>대리</dd>
+                        <dd>과장</dd>
+                        <dd>차장</dd>
+                        <dd>부장</dd>
+                    </dl>
+                    <dl>
+                        <dt>연구직</dt>
+                        <dd>연구원</dd>
+                        <dd>주임연구원</dd>
+                        <dd>전임연구원</dd>
+                        <dd>선임연구원</dd>
+                        <dd>책임연구원</dd>
+                        <dd>수석연구원</dd>
+                    </dl>
+                    <dl>
+                        <dt>토탈위생컨설트</dt>
+                        <dd>first</dd>
+                        <dd>prior</dd>
+                        <dd>senior</dd>
+                        <dd>master</dd>
+                    </dl>
+                </section>
+            </div>
+        </article>
+    <!-- 푸터공통영역-->
+   <? include "../common/sub_foot.html"?>
+</body>
+</html>

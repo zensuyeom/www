@@ -1,0 +1,92 @@
+@charset "utf-8";
+
+/* CSS Reset */
+
+html, body, div , span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video{margin: 0; padding: 0; border: 0; font-size: 100%}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section{display: block}
+body{font-family: "돋움", Dotum,"굴림",Gulim, sans-serif; font-size: 14px; color: #333}
+ol, ul{list-style: none}
+table{border-collapse: collapse; border-spacing: 0}
+address{font-style: normal}
+a{color: #333; text-decoration: none}
+img{border: 0; vertical-align: top}
+input{border-radius: 3px}
+
+.hidden{display: block; position: absolute; left: -1000%; width: 1px; height: 1px; overflow: hidden; color: #fff}
+
+#skipNav{position:relative; width:100%;overflow:hidden}
+#skipNav a{display:block; height:1px; margin-bottom:-1px; overflow:hidden; text-align:center; font-size:16px}
+#skipNav a:hover,#skipNav a:focus,#skipNav a:active{height:auto;padding:10px 0; background:#33a8e4}
+
+/*
+font-family: 'Nanum Gothic', sans-serif;
+font-family: 'Nanum Myeongjo', serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+/* 헤더공통영역 */
+#wrap{width: 100%; overflow: hidden; position: relative}
+
+#headerArea{height: 131px; position: fixed;width: 100%; z-index: 50; background: #fff; border-bottom: 1px solid #ccc}
+#headerArea .header_inner{width: 1200px; margin: 0 auto}
+#headerArea .logo{width: 180px; float: left}
+#headerArea .logo a{display: block; width: 93px; height: 56px; background: url(../images/logo.jpg); text-indent: -999px; overflow: hidden; margin: 34px 35px 35px 54px}
+#headerArea .header_right{float: right}
+#headerArea .top_menu{width: 1020px}
+#headerArea .top_menu ul{overflow: hidden; font-family: "돋움"; font-size: 1.143em; margin: 20px 50px 0 820px}
+#headerArea .top_menu li{float: left}
+#headerArea .top_menu li:nth-child(1){border-right: 1px solid #666; padding-right: 10px}
+#headerArea .top_menu li:last-child{margin-left: 10px}
+
+
+/* 공통 gnb 영역 */
+#headerArea #gnb{float: left}
+#headerArea #gnb .dropdownmenu{float: left; margin: 20px 50px 0 0; font-family: 'Nanum Gothic'; font-size: 1.429em; font-weight: 700}
+#headerArea #gnb .menu{float: left; width: 161px; text-align: center; position: relative}
+#headerArea #gnb .menu .depth1{display: block}
+#headerArea #gnb .menu .depth1:hover{color: #33a8e4}
+#headerArea #gnb .menu ul{position: absolute; left: 0; top: 23px; text-align: center; width: 161px; height: 186px; padding: 10px 0; font-weight: 400; font-size: 0.9em; display: none; border-bottom: 1px solid #ccc}
+#headerArea #gnb .menu ul li a{display: block; padding: 10px; transition: all .4s}
+#headerArea #gnb .menu ul li a:hover{color: #fff; background: #33a8e4; border-radius: 10px}
+
+
+
+/* 푸터공통영역 */
+#footerArea{background: url(../images/line.jpg) repeat-x}
+#footerArea .footer_inner{width: 1200px; margin: 0 auto}
+#footerArea .footer_top{width: 1200px}
+#footerArea .footer_top ul{overflow: hidden; margin: 20px 50px}
+#footerArea .footer_top li{float: left; margin-right: 32px; padding: 20px 0}
+#footerArea .footer_top li:nth-of-type(8){font-size: 2em; padding: 10px 0}
+#footerArea .footer_top li:nth-of-type(9){font-size: 2em; padding: 10px 0}
+#footerArea .footer_bottom{overflow: hidden; font-size: 0.857em; padding-bottom: 20px}
+#footerArea .footer_logo{margin: 0 50px; float: left}
+#footerArea .footer_left{float: left; text-transform: uppercase; line-height: 2em}
+#footerArea .footer_right{float: right}
+#footerArea .footer_right img{margin-right: 30px}
+
+/* 위로가기버튼 */
+#wrap .top_button{display: block; width: 50px; height: 50px; background: #33a8e4; border-radius: 25px; position: fixed; left: 50%; bottom: 200px; margin-left: 650px; color: #fff; font-weight: bold; text-transform: uppercase; letter-spacing: 1px}
+#wrap .top_button span>span{display: block; font-size: 0.5em; margin-left: 12px}
+#wrap .top_button>span{display: block;margin: 10px 8px}
+
+
+
+
+
+
+
+

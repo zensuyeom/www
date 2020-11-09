@@ -1,0 +1,52 @@
+#contentArea .content_area h3 .tab{font-family: 'Nanum Gothic', sans-serif; font-size: 1.286em; text-transform: uppercase; text-align: center; margin-bottom: 50px; position: absolute; left: 50%; top: -100px; width: 100px;padding: 20px; border: 1px solid #33a8e4; border-radius: 50px; transition: all .5s; font-weight: 400}
+#contentArea .content_area h3>a{display: block}
+#contentArea .content_area h3 a:hover{background: #33a8e4; color: #fff}
+#contentArea .content_area{position: relative}
+#contentArea .content_area .faq .tab{margin-left: -160px; width: 110px}
+#contentArea .content_area .qna .tab{margin-left: 40px}
+#contentArea .content_area .on{background: #33a8e4; color: #fff}
+#contentArea .content_area .content_list{display: none}
+
+/* 자주하는 질문 탭*/
+#contentArea .content_area .faq h4 .depth_tab{display: block; font-family: 'Nanum Gothic', sans-serif; font-size: 1.429em; font-weight: 400; margin-bottom: 30px; width: 250px; text-align: center; position: absolute; left: 50%; top: 20px; padding: 20px; border: 1px solid #ccc}
+#contentArea .content_area .faq section:nth-of-type(1) .depth_tab{margin-left: -500px}
+#contentArea .content_area .faq section:nth-of-type(2) .depth_tab{margin-left: -150px}
+#contentArea .content_area .faq section:nth-of-type(3) .depth_tab{margin-left: 200px}
+#contentArea .content_area .faq h4 .depth_tab:hover{background: #ff7d27; color: #fff}
+#contentArea .content_area .faq .on_depth_tab{background: #ff7d27; color: #fff}
+#contentArea .content_area .faq .depth_contlist{display: none; margin-top: 150px}
+#contentArea .content_area .faq{overflow: hidden}
+#contentArea .content_area .faq ul{margin-bottom: 50px}
+#contentArea .content_area .faq .article{ margin-bottom: 20px; text-align: left;font-family: 'Nanum Gothic', sans-serif; text-align: left}
+#contentArea .content_area .faq p{border: 1px solid #ccc; overflow: hidden; position: relative}
+#contentArea .content_area .faq p:first-of-type{font-size: 1.429em}
+#contentArea .content_area .faq .answer{font-size: 1.286em; line-height: 2em; display: none; padding: 30px 100px}
+#contentArea .content_area .faq p i:first-of-type{font-size: 2em; position: absolute; left: 40px; top: 20px}
+#contentArea .content_area .faq p.answer i{top: 30px}
+#contentArea .content_area .faq p:first-of-type span{display: block; float: right}
+#contentArea .content_area .faq .question>a{display: block; padding: 30px 100px}
+#contentArea .content_area .faq p:first-of-type:hover{border: 1px solid #ff7d27}
+#contentArea .content_area .faq p:first-of-type:hover>a{color: #ff7d27}
+#contentArea .content_area .faq p:first-of-type>a:focus{color: #ff7d27}
+/*1:1문의하기 탭*/
+#contentArea .content_area .qna .content_list>div:nth-of-type(1){text-align: left; font-size: 1.143em; margin-bottom: 50px; background: rgba(255,125,39); padding: 30px; font-family: 'Nanum Gothic', sans-serif}
+#contentArea .content_area .qna .content_list>div:nth-of-type(1)>p{position: relative; padding-left: 10px}
+#contentArea .content_area .qna .content_list>div:nth-of-type(1)>p::before{content: ""; display: block; width: 3px; height: 3px; background: #333; position: absolute; left: 0; top: 7px}
+#contentArea .content_area .qna .content_list p:first-of-type{margin-bottom: 30px}
+#contentArea .content_area .qna form{margin-bottom: 50px}
+#contentArea .content_area .qna table{margin: 0 auto; width: 1200px; margin-bottom: 30px}
+#contentArea .content_area .qna th{width: 20%; border: 1px solid #ccc; border-left: none; font-size: 1.429em; font-family: 'Nanum Gothic', sans-serif; padding: 20px; background: #f2f2f2}
+#contentArea .content_area .qna td{width: 80%; border: 1px solid #ccc; border-left: none; border-right: none; text-align: left; padding: 15px 0 15px 50px}
+#contentArea .content_area .qna input{width: 250px; height: 40px; text-align: left; font-size: 1.143em; padding: 10px; outline: 0; border: 1px solid #dedede}
+#contentArea .content_area .qna select{width: 250px; font-size: 1.143em; padding: 20px 10px; border: 1px solid #dedede; border-radius: 3px}
+#contentArea .content_area .qna tr:nth-of-type(3) select{padding-left: 20px}
+#contentArea .content_area .qna tr:nth-of-type(4) select{width: 240px; padding-left: 10px}
+#contentArea .content_area .qna textarea{width: 800px; padding: 20px; overflow: auto; resize: none; height: 300px; border: 1px solid #dedede; border-radius: 3px; outline: 0; font-size: 1.143em}
+#contentArea .content_area .qna span{font-size: 1.143em; font-weight: bold}
+#contentArea .content_area .qna>a{display: block; width: 150px; height: 33px; border-radius: 25px; padding-top: 17px; margin: 0 auto; color: #fff; background: #33a8e4; font-family: 'Nanum Gothic', sans-serif; font-size: 1.143em; transition: all .5s}
+#contentArea .content_area .qna>a:hover{opacity: .9}
+#contentArea .content_area .qna input:focus{border: 1px solid #0171bb}
+#contentArea .content_area .qna textarea:focus{border: 1px solid #0171bb}
+#contentArea .content_area .qna select:focus{border: 1px solid #0171bb}
+#contentArea .content_area .qna .send_btn{width: 120px; padding: 10px 0; border: 0; background: #0171bb; cursor: pointer; color: #fff; font-size: 1.286em; font-weight: bold; border-radius: 10px; transition: all .9s}
+#contentArea .content_area .qna button:hover{color: #0171bb; background: #fff; border: 1px solid #0171bb}

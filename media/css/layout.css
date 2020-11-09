@@ -1,0 +1,206 @@
+/* 와이드 pc  */
+#wrap{overflow: hidden; width: 100%}
+	
+.videoBox{width:100%;height:100%; overflow:hidden; position:absolute}
+#videoBG {
+   position:absolute; /*고정=>fixed/ 스크롤처리=>absolute */
+   left:50%;
+   top:50%; /*오른쪽, 아래에 여백을 두지않고 꽉차게 표시*/
+   width:auto;
+   min-width:100%; /*동영상 너비를 꽉차게*/
+   height:auto;
+   min-height:100%; /*동영상 높이를 꽉차게*/
+  transform:translateX(-50%) translateY(-50%);
+   z-index:-100; /*다른요소보다 아래에 위치*/
+  
+}
+
+#imgBG{
+	position:absolute; /*고정=>fixed/ 스크롤처리=>absolute */
+   left:50%;
+   top:50%; /*오른쪽, 아래에 여백을 두지않고 꽉차게 표시*/
+   width:auto;
+   min-width:100%; /*동영상 너비를 꽉차게*/
+   height:auto;
+   min-height:100%; /*동영상 높이를 꽉차게*/
+  transform:translateX(-50%) translateY(-50%);
+   z-index:-100;
+   display:none
+}
+
+.down{display: block; font-size: 20px; position: absolute; 
+	 left:50%; margin-left: -90px; bottom: 20%;
+	animation:ani 1s infinite  alternate;}
+@keyframes ani {
+	0% { transform:scale(1); opacity:1; color:#fff;}
+	100% { transform:scale(1.2); opacity:0.8; color:#888;}
+}	
+	
+
+#content{width:100%;overflow: hidden}
+#content section{margin-bottom: 200px}
+#content h3{text-transform: uppercase; text-align: center; margin-bottom: 50px}
+#content .about{width: 96%; margin: 200px 2%; position: relative}
+#content .about h3{font-family: 'Roboto Slab', serif; font-weight: 700; color: #bdae69; font-size: 4.5em}
+#content .about p{text-align: left; line-height: 2em;margin-bottom: 50px}
+
+#content .cast{position: relative; width: 96%; margin: 0 2%; margin-bottom: 200px}
+#content .cast h3 a{display: block; font-family: 'Roboto Slab', serif; font-weight: 700; color: #bdae69; font-size: 4.5em}
+#content .cast_list li{overflow: hidden; padding: 0 5%}
+#content .cast_list li span{display: block; height: 550px; background-size: cover; width: 30%; float: left; margin-left: 5%}
+#content .cast_list li p{float: left; width: 50%; margin: 0 5%; line-height: 2em}
+#content .cast_list li p:first-of-type{margin: 50px 5%}
+#content .cast_list li:first-of-type span{background: url(../images/toro.jpg) center no-repeat}
+#content .cast_list li:nth-of-type(2) span{background: url(../images/sallyhawkins.jpg) center no-repeat}
+#content .cast_list li:nth-of-type(3) span{background: url(../images/jenkins.jpg) center no-repeat}
+#content .cast_list li:nth-of-type(4) span{background: url(../images/shannon.jpg) center no-repeat}
+#content .cast_list li:last-of-type span{background: url(../images/spencer.jpg) center no-repeat}
+#content .cast .arrow a{color: #fff; display: block; position: absolute; top: 50%; font-size: 3em}
+#content .cast .arrow a:first-of-type{left:1%}
+#content .cast .arrow a:last-of-type{right:1%}
+
+#content .trailer{position: relative}
+#content .trailer div{background: url(../images/trailerbg.jpg) center no-repeat ; background-attachment: fixed; height: 470px; position: relative}
+#content .trailer h3{font-family: 'Noto Serif', serif; font-style: italic; font-size: 4.5em; position: absolute;left: 0; top: 50%; margin:0; margin-top: -45px; letter-spacing: 5px; text-shadow: 3px 3px 2px rgba(0,0,0,0.3);width: 100%}
+#content .trailer ul{overflow: hidden; margin-top: 100px}
+#content .trailer li{float: left; width: 33.33%;text-align: center}
+#content .trailer li a{display: block; color: #fff; padding: 5%}
+#content .trailer li a:hover span:nth-of-type(1){color: #bdae69}
+#content .trailer li img{width: 100%}
+#content .trailer li span{display: block; text-align: center;}
+#content .trailer li span:first-of-type{font-size: 2em; text-transform: capitalize; width: 80%;margin: 0 auto;box-sizing: border-box; padding: 5%; border-bottom: 1px solid #fff; padding-bottom: 3%}
+#content .trailer li span{display: block; padding: 1%}
+
+#content .music .musicbg{background: url(../images/musicbg.jpg) center no-repeat; background-attachment: fixed; height: 470px; position: relative; margin-bottom: 100px}
+#content .music h3{font-family: 'Noto Serif', serif; font-style: italic; font-size: 4.5em;position: absolute;left: 0; top: 50%; margin:0; margin-top: -45px; letter-spacing: 5px; text-shadow: 3px 3px 2px rgba(0,0,0,0.3);width: 100%}
+#content .music .ost li{float: left; width: 450px; height: 550px; margin-right: 20px}
+#content .music .ost li a{display: block; position: relative;height: 450px; border-radius: 225px; background-size: cover}
+#content .music .ost li a span:first-of-type{display: block; position: absolute; bottom: -40px; width: 100%; font-size: 2em; color: #fff; text-align: center; text-transform: capitalize}
+#content .music .ost li a span:last-of-type{display: block; position: absolute; bottom: -80px; text-align: center; text-transform: capitalize; color: #fff; width: 100%}
+.feature .swiper-pagination {position: relative; margin-top: 30px}
+.feature .swiper-pagination-progress .swiper-pagination-progressbar{background: rgba(4, 178, 217, 1)}
+#content .music .ost li:nth-of-type(1) a{background: url(../images/music1.jpg) center no-repeat}
+#content .music .ost li:nth-of-type(2) a{background: url(../images/music2.jpg) center no-repeat}
+#content .music .ost li:nth-of-type(3) a{background: url(../images/music3.jpg) center no-repeat}
+#content .music .ost li:nth-of-type(4) a{background: url(../images/music4.jpg) center no-repeat}
+#content .music .ost li:nth-of-type(5) a{background: url(../images/music5.jpg) center no-repeat}
+#content .music .ost li:nth-of-type(6) a{background: url(../images/music6.jpg) center no-repeat}
+#content .music .ost li:nth-of-type(7) a{background: url(../images/music7.jpg) center no-repeat}
+#content .music .ost li:nth-of-type(8) a{background: url(../images/music8.jpg) center no-repeat}
+
+#content .photo{width: 1600px; margin: 0 auto; margin-bottom: 100px}
+#content .photo h3{font-family: 'Noto Serif', serif; font-style: italic; font-size: 4.5em; letter-spacing: 5px; text-shadow: 3px 3px 2px rgba(0,0,0,0.3)}
+#content .photo ul{overflow: hidden;text-align: center}
+#content .photo .photo_box>li{float: left; margin-bottom: 50px}
+#content .photo .photo_box>li:nth-of-type(odd){margin-right: 100px; margin-left: 50px}
+#content .photo .photo_box>li:nth-of-type(even){margin-right: 50px}
+#content .photo .photo_box>li li{margin-bottom: 20px}
+#content .photo .photo_box a{display: block; width: 100%}
+#content .photo li{position: relative}
+#content .photo .photo_box dl{position: absolute; border: 5px solid #05172f; box-sizing: border-box; background: rgba(255,255,255,.7); text-align: center; color: #05172f;display: none}
+#content .photo .photo_box li:first-of-type ul li dl{top: 20px; left: 100px; width: 400px; height: 300px}
+#content .photo .photo_box li:first-of-type ul li dl dt{margin: 50px 0 100px 0}
+#content .photo .photo_box li:last-of-type ul li dl{top: 20px; left: 100px; width: 400px; height: 300px}
+#content .photo .photo_box li:last-of-type ul li dl dt{margin: 50px 0 100px 0}
+#content .photo .photo_box li:nth-of-type(2) dl{top: 50px; left: 100px; width: 600px; height: 600px}
+#content .photo .photo_box li:nth-of-type(3) dl{top: 50px; left: 100px; width: 600px; height: 600px}
+#content .photo dl dt{text-transform: capitalize; font-size: 2em; margin: 100px 0 300px 0}
+#content .photo dl dd{line-height: 2em}
+
+
+
+/* 일반 pc */
+@media screen and (max-width:1280px) {
+    #content .about{width: auto; margin: 200px 0; padding: 0 2%}
+    #content .cast{width: auto; margin: 0; margin-bottom: 200px}
+    #content .cast .cast_list li p:last-of-type{display: none}
+    #content .photo{width: auto; margin: 0; margin-bottom: 100px}
+    #content .photo .photo_box>li{width: 50%}
+    #content .photo .photo_box>li:nth-of-type(odd){margin:0}
+    #content .photo .photo_box>li:nth-of-type(even){margin:0}
+    #content .photo .photo_box>li:nth-of-type(2){display: none}
+    #content .photo .photo_box>li:nth-of-type(3){display: none}
+    #content .photo .photo_box>li a img{width:96%; margin: 0 2%}
+    #content .photo .photo_box li:first-of-type ul li dl{top: 0; left: 0; width: 96%; margin: 0 2%; height: 100%}
+    #content .photo .photo_box li:last-of-type ul li dl{top: 0; left: 0; width: 96%; margin: 0 2%; height: 100%}
+}
+
+
+/* 테블릿 */
+@media screen and (max-width:1024px) {
+    #content .about p:nth-of-type(3){display: none}
+    #content .trailer div{background-attachment: scroll}
+    #content .trailer li{width: 50%}
+    #content .trailer li:nth-of-type(5){display: none}
+    #content .trailer li:nth-of-type(6){display: none}
+    #content .music .musicbg{background-attachment: scroll}
+    #content .photo .photo_box li:first-of-type ul li dl dt{margin: 0; margin-top: 25%}
+    #content .photo .photo_box li:last-of-type ul li dl dt{margin:0; margin-top: 25%}
+    #content .photo .photo_box dl dd{display: none}
+    #content .cast_list li span{height: 400px}
+    #content .cast_list li p{font-size: .875em}
+    #content .cast_list li p:first-of-type{margin: 0 5%}
+    #content .cast_list li:first-of-type span{background: url(../images/toro1024.jpg) center no-repeat}
+    #content .cast_list li:nth-of-type(2) span{background: url(../images/sallyhawkins1024.jpg) center no-repeat}
+    #content .cast_list li:nth-of-type(3) span{background: url(../images/jenkins1024.jpg) center no-repeat}
+    #content .cast_list li:nth-of-type(4) span{background: url(../images/shannon1024.jpg) center no-repeat}
+    #content .cast_list li:last-of-type span{background: url(../images/spencer1024.jpg) center no-repeat}
+    }
+
+/* 소형 테블릿 */
+@media screen and (max-width:768px) {
+    #content section{margin-bottom: 100px}
+    #content .about{margin: 100px 0}
+    #content .cast{margin-bottom: 100px}
+    #content .trailer{margin: 0; margin-bottom: 100px}
+    #headerArea	.headerInner .btn{display: block}
+    #headerArea #gnb ul{display: none}
+    #headerArea #gnb ul{position: absolute; top: 140px; left: 0; background: rgba(5,23,47,.8);margin: 0; width: 100%; text-align: center}
+    #headerArea #gnb ul li{float: none; margin: 0; padding: 3.5%}
+    #content .about h3{font-size: 3em}
+    #content .about p:nth-of-type(2){display: none}
+    #content .cast h3 a{font-size: 3em}
+    #content .cast_list li span{height: 200px}
+    #content .cast_list li:first-of-type span{background: url(../images/toro768.jpg) center no-repeat}
+    #content .cast_list li:nth-of-type(2) span{background: url(../images/sallyhawkins768.jpg) center no-repeat}
+    #content .cast_list li:nth-of-type(3) span{background: url(../images/jenkins768.jpg) center no-repeat}
+    #content .cast_list li:nth-of-type(4) span{background: url(../images/shannon768.jpg) center no-repeat}
+    #content .cast_list li:last-of-type span{background: url(../images/spencer768.jpg) center no-repeat}
+    #content .cast .arrow a{font-size: 2em}
+    #content .trailer div{height: 300px}
+    #content .trailer h3{font-size: 3em}
+    #content .music .musicbg{height: 300px}
+    #content .music .ost li{float: left; width: 300px; height: 400px}
+    #content .music .ost li a{display: block; position: relative;height: 300px; border-radius: 150px}
+    #content .music .ost li a span:first-of-type{font-size: 1.5em}
+    #content .music h3{font-size: 3em}
+    #content .photo h3{font-size: 3em}
+    #content .photo .photo_box>li{float: none}
+    #content .photo .photo_box>li:nth-of-type(4){display: none}
+    #content .photo .photo_box>li:nth-of-type(1) ul{overflow: hidden}
+    #content .photo .photo_box>li:nth-of-type(1) li{float: left; width: 50%}
+    #content .photo .photo_box>li{width: auto}
+}
+
+/* 모바일 */
+@media screen and (max-width:640px) {
+    #content .about p{font-size: .875em}
+    #content .cast .cast_list p{font-size: .875em}
+    #content .trailer div{height: 150px}
+    #content .trailer li{width: 96%; margin: 0 2%}
+    #content .trailer li:nth-of-type(2){display: none}
+    #content .trailer li:nth-of-type(3){display: none}
+    #content .trailer li:nth-of-type(4){display: none}
+    #content .music .musicbg{height: 150px}
+    #content .photo .photo_box>li:nth-of-type(1) li{width: 96%; margin: 0 2%; float: none}
+    #content .photo .photo_box>li:nth-of-type(1) li:last-of-type{display: none}
+    #content .trailer h3{margin-top: -32px}
+    #content .music h3{margin-top: -32px}
+}
+
+/* 최소 사이즈 처리 */
+@media screen and (max-width:480px) {
+	#wrap { min-width:320px; }
+}
+
+

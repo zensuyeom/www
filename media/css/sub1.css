@@ -1,0 +1,39 @@
+.imageBox h2{font-family: 'Noto Serif', serif; font-style: italic; font-size: 5em; text-align: center; text-transform: uppercase; text-shadow: 3px 3px 2px rgba(0,0,0,0.3); position: absolute; left: 0; top: 50%; width: 100%}
+.imageBox h2 span{display: block; font-family: 'Lobster', cursive; color: #bdae69; font-size: .3em}
+
+#content{width:100%;overflow: hidden; background: rgba(5,23,47,.8)}
+#content .trailers{width: 84%; margin: 0 auto; margin-bottom: 150px}
+#content .trailers h3{font-family: 'Lobster', cursive; text-align: right; font-size: 3.5em; text-transform: capitalize; padding-top: 6%; margin-bottom: 2%; position: relative}
+#content .trailers h3::before{content: ''; display: block; width: 15%; height: 10px; background: #ebef1c; position: absolute; left: 0; bottom: 0}
+#content .trailers h3::after{content: ''; display: block; width: 15%; height: 10px; background: #ebef1c; position: absolute; right: 0; bottom: 0; margin-bottom: -56%}
+#content .trailers .contentArea{width: 100%}
+#content .trailers .contentArea p{text-transform: capitalize; font-size: 1.5em}
+#content .trailers .contentArea p strong{display: block; font-size: 1.2em; margin-bottom: 1%}
+
+
+/* 일반 pc */
+@media screen and (max-width:1280px) {
+    
+}
+
+
+/* 테블릿 */
+@media screen and (max-width:1024px) {
+    #content .trailers{margin-bottom: 50px}
+    #content .trailers h3{font-size: 1.5em}
+    #content .trailers .contentArea p{font-size: 1em}
+    }
+
+/* 소형 테블릿 */
+@media screen and (max-width:768px) {
+    #content .clip .clip_part .contentArea p{font-size: .8em}
+}
+
+/* 모바일 */
+@media screen and (max-width:640px) {
+    
+}
+
+
+
+

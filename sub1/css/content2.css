@@ -1,0 +1,45 @@
+/* 회사소개 본문 */
+#contentArea .content_area{position: relative}
+#contentArea .content_area section{overflow: hidden}
+#contentArea .content_area h3 a{display: block; font-size: 1.286em; font-family: 'Nanum Gothic', sans-serif; text-align: center; margin-bottom: 50px;
+position: absolute; left: 50%; top: -100px; border: 1px solid #33a8e4; width: 100px; border-radius: 50px; transition: all .5s; padding: 20px;font-weight: 400}
+#contentArea .content_area .summary h3 a{margin-left: -160px}
+#contentArea .content_area .history h3 a{margin-left: 40px}
+#contentArea .content_area .content_list{display: none; margin-top: 100px}
+#contentArea .content_area .summary .content_list{margin-bottom: 100px}
+#contentArea .content_area .on{background: #33a8e4; color: #fff}
+#contentArea .content_area .tab:hover{color: #33a8e4}
+/* 회사소개 탭 */
+#contentArea .content_area .summary p{font-size: 1.286em; line-height: 2em; text-align: justify; margin-bottom: 30px}
+#contentArea .content_area .summary p span{color: #ff7d27}
+#contentArea .content_area .summary img{display: block; width: 560px; float: left; margin-right: 40px; margin-bottom: 50px}
+#contentArea .content_area .summary p:nth-of-type(1){float: left; width: 600px; font-size: 2.143em; font-family: 'Nanum Myeongjo', serif; margin-top: 100px}
+#contentArea .content_area .summary p:nth-of-type(2){clear: both}
+/* 연혁 탭 */
+#contentArea .content_area .line{position: relative; display: block; z-index: -1}
+#contentArea .content_area .line::after{content: ""; width: 4px; height: 2598px; background: #33a8e4; left: 50%; margin-left: -2px; top: -81px; position: absolute}
+#contentArea .content_area ul{overflow: hidden; width: 1140px; background: #33a8e4; padding: 30px; margin-bottom: 50px; position: relative}
+#contentArea .content_area ul a:hover{font-weight: bold; letter-spacing: -1px}
+#contentArea .content_area li{float: left; width: 25%; font-size: 1.286em; text-align: center; position: relative}
+#contentArea .content_area li:nth-of-type(1)::after{content: ""; width: 100px; height: 3px; background: #fff; position: absolute; right: -50px; bottom: 9px}
+#contentArea .content_area li:nth-of-type(2)::after{content: ""; width: 100px; height: 3px; background: #fff; position: absolute; right: -50px; bottom: 9px}
+#contentArea .content_area li:nth-of-type(3)::after{content: ""; width: 100px; height: 3px; background: #fff; position: absolute; right: -50px; bottom: 9px}
+#contentArea .content_area li a{display: block; color: #fff}
+#contentArea .content_area .history h4{width: 145px; height: 95px; padding-top: 55px; padding-left: 5px; border: 1px solid #33a8e4; border-radius: 75px; background: #33a8e4; font-size: 2.429em; color: #fff; margin-left: 525px; margin-bottom: 30px; font-family: 'Nanum Gothic', sans-serif}
+#contentArea .content_area .history dt{font-family: 'Nanum Gothic', sans-serif; font-size: 3.214em; color: #ff7d27; margin-bottom: 20px; text-transform: capitalize}
+#contentArea .content_area .history dd{font-size: 1.143em; margin-bottom: 10px; text-transform: uppercase}
+#contentArea .content_area .history section{position: relative}
+#contentArea .content_area .history section:nth-of-type(1){height: 367px}
+#contentArea .content_area .history section:nth-of-type(1) dl{position: absolute; left: 630px; top: 180px; text-align: left; width: 600px}
+#contentArea .content_area .history section:nth-of-type(2){height: 880px}
+#contentArea .content_area .history section:nth-of-type(2) dl:nth-of-type(1){position: absolute; right: 630px; top: 180px; text-align: right; width: 600px}
+#contentArea .content_area .history section:nth-of-type(2) dl:nth-of-type(2){position: absolute; right: 630px; top: 363px; text-align: right; width: 600px}
+#contentArea .content_area .history section:nth-of-type(2) dl:nth-of-type(3){position: absolute; right: 630px; top: 498px; text-align: right; width: 600px}
+#contentArea .content_area .history section:nth-of-type(2) dl:nth-of-type(4){position: absolute; right: 630px; top: 663px; text-align: right; width: 600px}
+#contentArea .content_area .history section:nth-of-type(3){height: 651px}
+#contentArea .content_area .history section:nth-of-type(3) dl:nth-of-type(1){position: absolute; left: 630px; top: 180px; text-align: left; width: 600px}
+#contentArea .content_area .history section:nth-of-type(3) dl:nth-of-type(2){position: absolute; left: 630px; top: 317px; text-align: left; width: 600px}
+#contentArea .content_area .history section:nth-of-type(3) dl:nth-of-type(3){position: absolute; left: 630px; top: 484px; text-align: left; width: 600px}
+#contentArea .content_area .history section:nth-of-type(4){height: 600px}
+#contentArea .content_area .history section:nth-of-type(4) dl:nth-of-type(1){position: absolute; right: 630px; top: 180px; text-align: right; width: 600px}
+#contentArea .content_area .history section:nth-of-type(4) dl:nth-of-type(2){position: absolute; right: 630px; top: 337px; text-align: right; width: 600px}

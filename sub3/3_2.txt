@@ -1,0 +1,131 @@
+<div>
+                   <p><span>더 깨끗하게 더 안전하게, 세스코 쇼핑</span>세스코 쇼핑은 지난 41여년간 해충방제 서비스를 통해 축적된 위생관리에 대한 서비스와 컨설팅 노하우를 지닌 국내 대표 생활환경위생기업 세스코가 업종별, 환경별로 발생 가능한 다양한 토탈 환경위생문제에 대한 최적의 현장 맞춤형 토탈 솔루션을 온라인을 통해 고객 여러분께 언제 어디서나 가장 즐겁고 편리하게 제안해 드릴 수 있도록 만든 세스코의 또 하나의 도약입니다.</p>
+               </div>
+                <ul>
+                    <li>
+                       <a href="javascript:void(0);">
+                            <img src="images/content2/chemical1.jpg" alt="세스케어 기름때세정제 파워 500ml">
+                            <dl>
+                                <dt>세스케어 기름때세정제 파워 500ml</dt>
+                                <dd>정상가 : <span>6,500 원</span></dd>
+                                <dd><span>멤버스 회원가 : 6,000 원</span></dd>
+                            </dl>
+                            <span class="border_top"></span>
+                            <span class="border_right"></span>
+                            <span class="border_bottom"></span>
+                            <span class="border_left"></span>
+                        </a>
+                    </li>
+                    <li>
+                       <a href="javascript:void(0);">
+                            <img src="images/content2/chemical2.jpg" alt="세스케어 기름때세정제 파워 4L">
+                            <dl>
+                                <dt>세스케어 기름때세정제 파워 4L</dt>
+                                <dd>정상가 : <span>17,000 원</span></dd>
+                                <dd><span>멤버스 회원가 : 14,000원</span></dd>
+                            </dl>
+                            <span class="border_top"></span>
+                            <span class="border_right"></span>
+                            <span class="border_bottom"></span>
+                            <span class="border_left"></span>
+                        </a>
+                    </li>
+                    <li>
+                       <a href="javascript:void(0);">
+                            <img src="images/content2/chemical3.jpg" alt="세스케어 핸드워시 퓨어폼 500ml">
+                            <dl>
+                                <dt>세스케어 핸드워시 퓨어폼 500ml</dt>
+                                <dd>정상가 : <span>7,000 원</span></dd>
+                                <dd><span>멤버스 회원가 : 6,000 원</span></dd>
+                            </dl>
+                            <span class="border_top"></span>
+                            <span class="border_right"></span>
+                            <span class="border_bottom"></span>
+                            <span class="border_left"></span>
+                        </a>
+                    </li>
+                    <li>
+                       <a href="javascript:void(0);">
+                            <img src="images/content2/chemical4.jpg" alt="세스케어 주방세제 프리미엄 478ml">
+                            <dl>
+                                <dt>세스케어 주방세제 프리미엄 478ml</dt>
+                                <dd>정상가 : <span>7,000 원</span></dd>
+                                <dd><span>멤버스 회원가 : 6,500 원</span></dd>
+                            </dl>
+                            <span class="border_top"></span>
+                            <span class="border_right"></span>
+                            <span class="border_bottom"></span>
+                            <span class="border_left"></span>
+                        </a>
+                    </li>
+                    <li>
+                       <a href="javascript:void(0);">
+                            <img src="images/content2/chemical5.jpg" alt="세스케어 주방세제 프리미엄파우치 865ml">
+                            <dl>
+                                <dt>세스케어 주방세제 프리미엄파우치 865ml</dt>
+                                <dd>정상가 : <span>9,000 원</span></dd>
+                                <dd><span>멤버스 회원가 : 7,800 원</span></dd>
+                            </dl>
+                            <span class="border_top"></span>
+                            <span class="border_right"></span>
+                            <span class="border_bottom"></span>
+                            <span class="border_left"></span>
+                        </a>
+                    </li>
+                    <li>
+                       <a href="javascript:void(0);">
+                            <img src="images/content2/chemical6.jpg" alt="세스케어 바닥벽면 세정제 500ml">
+                            <dl>
+                                <dt>세스케어 바닥벽면 세정제 500ml</dt>
+                                <dd>정상가 : <span>6,000 원</span></dd>
+                                <dd><span>멤버스 회원가 : 5,000 원</span></dd>
+                            </dl>
+                            <span class="border_top"></span>
+                            <span class="border_right"></span>
+                            <span class="border_bottom"></span>
+                            <span class="border_left"></span>
+                        </a>
+                    </li>
+                    <li>
+                       <a href="javascript:void(0);">
+                            <img src="images/content2/chemical7.jpg" alt="세스케어 바닥벽면세정제 욕실용 490ml">
+                            <dl>
+                                <dt>세스케어 바닥벽면세정제 욕실용 490ml</dt>
+                                <dd>정상가 : <span>6,000 원</span></dd>
+                                <dd><span>멤버스 회원가 : 5,000 원</span></dd>
+                            </dl>
+                            <span class="border_top"></span>
+                            <span class="border_right"></span>
+                            <span class="border_bottom"></span>
+                            <span class="border_left"></span>
+                        </a>
+                    </li>
+                    <li>
+                       <a href="javascript:void(0);">
+                        <img src="images/content2/chemical8.jpg" alt="세스케어 세탁조 클리너(단상자)">
+                            <dl>
+                                <dt>세스케어 세탁조 클리너(단상자)</dt>
+                                <dd>정상가 : <span>9,000 원</span></dd>
+                                <dd><span>멤버스 회원가 : 6,500 원</span></dd>
+                            </dl>
+                            <span class="border_top"></span>
+                            <span class="border_right"></span>
+                            <span class="border_bottom"></span>
+                            <span class="border_left"></span>
+                        </a>
+                    </li>
+                    <li>
+                       <a href="javascript:void(0);">
+                            <img src="images/content2/chemical9.jpg" alt="세스케어 곰팡이제거 파워젤 150g*2">
+                            <dl>
+                                <dt>세스케어 곰팡이제거 파워젤 150g*2</dt>
+                                <dd>정상가 : <span>8,000 원</span></dd>
+                                <dd><span>멤버스 회원가 : 6,500원</span></dd>
+                            </dl>
+                            <span class="border_top"></span>
+                            <span class="border_right"></span>
+                            <span class="border_bottom"></span>
+                            <span class="border_left"></span>
+                        </a>
+                    </li>
+                </ul>

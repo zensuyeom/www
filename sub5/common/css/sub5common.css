@@ -1,0 +1,23 @@
+/* 4depth의 공통 */
+.visual{position: relative; width:2000px; margin-left: -1000px; left: 50%; top: 0; margin-top: 131px}
+.subnav_box{width: 1200px; margin: 0 auto; position: relative}
+.subnav_box h3{position: absolute;left: 50%; margin-left: -75px; bottom: 0; margin-bottom: 160px; font-family: 'Nanum Gothic'; font-size: 3em; color: #fff}
+.subnav_box p{position: absolute; left: 50%; margin-left: -120px; bottom: 0; margin-bottom: 130px; font-family: 'Nanum Gothic'; font-size: 1.286em; color: #fff; text-align: center}
+.subnav_box .sub_nav{position: absolute; left: 50%; margin-left: -300px; bottom: 0; background: #f2f2f2; font-size: 1.286em; font-family: 'Nanum Gothic'}
+.subnav_box .sub_nav ul{overflow: hidden; width: 600px; margin:0 auto}
+.subnav_box .sub_nav ul li{float: left; width: 200px; text-align: center; position: relative}
+.subnav_box .sub_nav ul li:nth-of-type(1)::after{content: ""; display: block; width: 1px; height: 69px; background: #fff; position: absolute; top: 0; right: 0}
+.subnav_box .sub_nav ul li:nth-of-type(2)::after{content: ""; display: block; width: 1px; height: 69px; background: #fff; position: absolute; top: 0; right: 0}
+.subnav_box .sub_nav ul li a{display: block; padding: 20px 0; font-size: 1.286em; transition: all 0.2s}
+.subnav_box .sub_nav ul li a:hover{background: #fff; font-weight: bold; letter-spacing: -1px}
+.subnav_box .sub_nav ul li .current{background: #fff; font-weight: bold; letter-spacing: -1px}
+.subnav_box .sub_nav ul li .current::before{content: ""; display: block; width: 150px; height: 3px; background: #33a8e4; position: absolute; bottom: 0; left: 25px}
+#contentArea{width: 1200px; margin: 0 auto; text-align: center}
+/* 타이틀에어리어부분 */
+#contentArea .title_area{margin-bottom: 150px}
+#contentArea .title_area .line_map{font-size: 1.143em; color: #999; margin:100px 0 50px 0; position: relative}
+#contentArea .title_area .line_map span:nth-of-type(3){font-weight: bold}
+#contentArea .title_area .line_map span:nth-of-type(1)::before{content:""; display: block; width: 300px; height: 1px; background: #dedede; position: absolute; top: 10px; left: 0}
+#contentArea .title_area .line_map span:nth-of-type(3)::after{content:""; display: block; width: 300px; height: 1px; background: #dedede; position: absolute; top: 10px; right: 0}
+#contentArea .title_area h2{font-family: 'Nanum Gothic'; font-weight: 700; font-size: 4.643em; color: #33a8e4; margin-bottom: 20px}
+#contentArea .title_area>span{text-transform: uppercase; font-family: 'Roboto'; font-size: 1.286em; position: relative}

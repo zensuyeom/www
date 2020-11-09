@@ -1,0 +1,35 @@
+/*공기질관리*/
+.main{background: url(../images/sub2_visual.png) no-repeat center; background-size: cover; margin-top: 50px; height: 100px; text-align: center; overflow: hidden; margin-bottom: 25px}
+.main h3{font-family: 'Nanum Gothic', sans-serif; font-size: 1.714em; color: #fff; margin: 15px 0}
+.main p{font-family: 'Nanum Myeongjo', serif; color: #fff; font-weight: 700}
+#content .nav_on{position: fixed; left: 0; top: 0; width: 100%; z-index: 30}
+
+#content{text-align: center}
+#content h2{font-family: 'Nanum Gothic', sans-serif; font-size: 2em; color: #33a8e4; font-weight: 700; margin-bottom: 10px}
+#content>span{display: block; text-transform: uppercase; font-family: 'Roboto', sans-serif; font-weight: bold; margin-bottom: 15px}
+#content .tab_menu ul{overflow: hidden; margin-bottom: 15px; background: #f2f2f2; box-shadow: 1px 1px 1px 1px #ccc}
+#content .tab_menu ul li{float: left; width: 50%; font-size: 1.143em}
+#content .tab_menu ul li .active{background: #ff7d27; color: #fff}
+#content .tab_menu ul li a{display: block; padding: 15px 0}
+#content .content_top{position: relative}
+#content .content_top img{width: 100%}
+#content .content_top p{line-height: 1.5em; background: rgba(255,255,255,.7); padding: 5%; width: 70%; margin: 0 10%; position: relative; left: 0; bottom: 80px; box-shadow: 1px 1px 1px 1px #ccc; letter-spacing: -1px}
+#content .content_top p span{display: block; font-weight: bold}
+#content section h3{font-family: 'Nanum Gothic', sans-serif; font-size: 2em; color: #33a8e4; font-weight: 700; margin-bottom: 20px}
+#content .virtue img{width: 100%}
+#content .virtue dl{width: 80%; margin: 0 5%; margin-bottom: 15px; padding: 30px 5%; position: relative; left: 0; bottom: 80px; background: #fff}
+#content .virtue dt{font-size: 1.143em; font-weight: bold;margin-bottom: 5px; line-height: 1.5em}
+#content .virtue dd{line-height: 1.5em}
+#content .product section{position: relative}
+#content .product section h4{height: 141px; font-family: 'Nanum Gothic', sans-serif; font-size:1.714em; color: #fff; text-align: left; padding-left: 20px; padding-top: 30px; font-weight: 700; margin-bottom: 15px}
+#content .product section>span{color: #ff7d27; position: absolute; left: 20px; top: 80px; font-weight: bold;text-align: left; line-height: 1.5em}
+#content .product section:first-of-type h4{background:url(../images/air_se.png) no-repeat center;background-size: cover}
+#content .product section:nth-of-type(2) h4{background:url(../images/air_smart.png) no-repeat center;background-size: cover}
+#content .product section:last-of-type h4{background:url(../images/air_iot.png) no-repeat center;background-size: cover}
+#content .product ul{overflow: hidden}
+#content .product li{float: left; width: 46%; margin: 0 2%}
+#content .product li img{width: 80%; padding: 0 10%}
+#content .product li dl{padding: 5%; text-align: justify; padding-left: 10%}
+#content .product li dt{font-size: 1.143em; margin-bottom: 10px; line-height: 1.5em;}
+#content .product li dt span{display: block; color: #29bab3; font-size: .75em; letter-spacing: -1px; margin-bottom: 10px}
+#content .product li dd{line-height: 1.5em}

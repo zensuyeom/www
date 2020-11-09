@@ -1,0 +1,61 @@
+/* CSS Document */
+.main{margin-top: 50px; position: relative}
+.main img{width: 100%; margin-bottom: 26px}
+
+#content .report{margin-bottom: 26px}
+#content .report div{height: 200px; text-align: center; font-family: 'Nanum Gothic', sans-serif; font-weight: 700; font-size: 1.429em}
+#content .report div a p{font-family: 'Nanum Myeongjo', serif; font-size: .8em; width: 400px; margin: 0 auto; line-height: 1.5em; color: #fff; font-weight: 400; padding-top: 20px}
+#content .report div:first-of-type{background: #33a8e4}
+#content .report div:nth-of-type(2){background: #ff7d27}
+#content .report div:last-of-type{background: #29bab3}
+#content .report a{display: block; padding: 20px 0; color: #fff}
+#content .report a span{display: block; margin-top: 17px; position: relative; font-family: 'Roboto', sans-serif; font-size: .8em}
+#content .report div:first-of-type a span::before{content: ''; display: block; width: 80px; height: 1px; position: absolute; left: 50%; top: -4px; background: #fff; margin-left: -40px}
+#content .report div:first-of-type a span::after{content: ''; display: block; width: 80px; height: 1px; position: absolute; left: 50%; bottom: -4px; background: #fff; margin-left: -40px}
+#content .report div:nth-of-type(2) a span::before{content: ''; display: block; width: 100px; height: 1px; position: absolute; left: 50%; top: -4px; background: #fff; margin-left: -50px}
+#content .report div:nth-of-type(2) a span::after{content: ''; display: block; width: 100px; height: 1px; position: absolute; left: 50%; bottom: -4px; background: #fff; margin-left: -50px}
+#content .report div:last-of-type a span::before{content: ''; display: block; width: 80px; height: 1px; position: absolute; left: 50%; top: -4px; background: #fff; margin-left: -40px}
+#content .report div:last-of-type a span::after{content: ''; display: block; width: 80px; height: 1px; position: absolute; left: 50%; bottom: -4px; background: #fff; margin-left: -40px}
+
+#content .care{margin-bottom: 46px; position: relative}
+#content .care h3{text-align: center; font-family:'Roboto', sans-serif; font-weight: 700; text-transform: uppercase; font-size: 1.429em; margin-bottom: 10px}
+#content .care h3 a{display: block; color: #33a8e4}
+#content .care>.tabs{overflow: hidden;margin-bottom: 10px}
+#content .care>.tabs li{float: left; width: 50%; text-align: center; margin-bottom: 10px; position: relative; background: #f2f2f2}
+#content .care>.tabs li:first-of-type::after{content: ''; display: block; height: 14px; width: 1px; background: #ff7d27; position: absolute; right: 0; top: 5px}
+#content .care>.tabs li a{display: block; padding: 5px 0; color: #ff7d27}
+#content .care div{}
+#content .care div ul{overflow: hidden; display: none}
+#content .care div li{float: left; width: 50%; text-align: center; height: 183px}
+#content .care div a{display: block}
+#content .care div ul:first-of-type li:first-of-type img{width: 53px; height: 123px}
+#content .care div ul:first-of-type li:last-of-type img{width: 48px; height: 123px}
+#content .care div ul:last-of-type li:first-of-type img{width: 114px; height: 115px}
+#content .care div ul:last-of-type li:last-of-type img{width: 104px; height: 115px}
+#content .care div span{display: block; margin: 10px 0} 
+#content .care div span:first-of-type{color: #33a8e4; font-size: .8em}
+#content .care div span:last-of-type{font-weight: bold}
+#content .care .on{font-weight: bold; letter-spacing: -1px}
+#content .care .circle_box{overflow: hidden; margin-bottom: 46px}
+#content .care .circle{display: block; width: 10px; height: 10px; background: #ccc; border-radius: 5px; float: left; cursor: pointer; text-align: center; position: absolute; left: 50%}
+#content .care .circle_box .circle1{margin-left: -15px}
+#content .care .circle_box .circle2{margin-left: 15px}
+#content .care .circle_box .circle_on{background: #007aff}
+
+#content .request{text-align: center; margin-bottom: 26px}
+#content .request h3{text-align: center; font-family:'Nanum Gothic', sans-serif; font-weight: 700; font-size: 1.429em; margin-bottom: 10px}
+#content .request h3 a{display: block; color: #33a8e4}
+#content .request p{font-family: 'Nanum Myeongjo', serif; font-size: 1.143em; margin-bottom: 15px; line-height: 1.5em}
+#content .request p span:first-of-type{font-weight: 700}
+#content .request p span:last-of-type{font-size: 0.875em}
+#content .request img{width: 100%; margin-bottom: 15px}
+#content .request>a{display: block; color: #33a8e4; border: 1px solid #33a8e4; border-radius: 20px; width: 90px; position: relative; left: 50%; margin-left: -45px; padding: 10px 0}
+
+#content .faq{margin-bottom: 26px; text-align: center; background: #1f71b4; height: 40px; position: relative;overflow: hidden}
+#content .faq h3{width: 10%; font-family: 'Roboto', sans-serif; text-transform: uppercase; font-size: 1.429em; font-weight: 700; text-align: right; position: absolute; left: 10%; top: 7px;z-index: 5}
+#content .faq h3 a{display: block}
+#content .faq .slide_box{width: 80%; margin:0 10%; background: #fff; border-radius: 10px; height: 30px; position: relative; margin-top: 5px; overflow: hidden}
+#content .faq .slide_box .slide{position: absolute; left: 50%; top: 0; width: 300px; margin-left: -160px; text-align: center; padding-left: 10%}
+#content .faq .slide_box .slide ul{overflow: hidden}
+#content .faq .slide_box .slide li{height: 14px; margin-bottom: 8px}
+#content .faq .slide_box .slide li a{display: block;padding-top: 7px}

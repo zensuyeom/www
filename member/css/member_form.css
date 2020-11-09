@@ -1,0 +1,14 @@
+#content{text-align: center}
+#content h1{text-align: center}
+#content h1 a{display: block; width: 230px; height: 133px; background: url(../../common/images/mlogo.png); text-indent: -999px; overflow: hidden; margin: 50px auto}
+#content ul{margin: 50px auto}
+#content ul li{overflow: hidden; width: 650px; margin: 20px auto; position: relative}
+#content ul li span{position: absolute; right: 10px; top: 10px; width: 200px}
+#content ul li input{width: 560px;background: #f2f2f2; border: none; padding: 20px; margin: 0 auto; outline: 0}
+#content ul li input:focus{border: 1px solid #0171bb}
+#content ul li:nth-of-type(6) select{width: 140px; margin-right: 10px; padding: 20px; background: #f2f2f2; border: none}
+#content ul li:nth-of-type(6) input{width: 180px}
+#content ul li:nth-of-type(7) input{width: 250px}
+#content ul li a{display: block; width: 560px; margin: 0 auto; color: #fff; padding: 20px; font-weight: bold}
+#content ul li a:first-of-type{background: url(../../common/images/ok.png)}
+#content ul li a:last-of-type{background: url(../../common/images/reset.png)}

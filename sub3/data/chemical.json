@@ -1,0 +1,76 @@
+{
+    "chemical":[
+        {
+            "link_none":"javascript:void(0);",
+            "img":"images/content2/chemical1.jpg",
+            "title":"세스케어 기름때세정제 파워 500ml",
+            "normal":"정상가 : ",
+            "price":"6,500원",
+            "member":"멤버스 회원가 : 6,000원"
+        },
+        {
+            "link_none":"javascript:void(0);",
+            "img":"images/content2/chemical2.jpg",
+            "title":"세스케어 기름때세정제 파워 4L",
+            "normal":"정상가 : ",
+            "price":"17,000 원",
+            "member":"멤버스 회원가 : 14,000원"
+        },
+        {
+            "link_none":"javascript:void(0);",
+            "img":"images/content2/chemical3.jpg",
+            "title":"세스케어 핸드워시 퓨어폼 500ml",
+            "normal":"정상가 : ",
+            "price":"7,000 원",
+            "member":"멤버스 회원가 : 6,000원"
+        },
+        {
+            "link_none":"javascript:void(0);",
+            "img":"images/content2/chemical4.jpg",
+            "title":"세스케어 주방세제 프리미엄 478ml",
+            "normal":"정상가 : ",
+            "price":"7,000 원",
+            "member":"멤버스 회원가 : 6,500원"
+        },
+        {
+            "link_none":"javascript:void(0);",
+            "img":"images/content2/chemical5.jpg",
+            "title":"세스케어 주방세제 프리미엄파우치 865ml",
+            "normal":"정상가 : ",
+            "price":"9,000 원",
+            "member":"멤버스 회원가 : 7,800원"
+        },
+        {
+            "link_none":"javascript:void(0);",
+            "img":"images/content2/chemical6.jpg",
+            "title":"세스케어 바닥벽면 세정제 500ml",
+            "normal":"정상가 : ",
+            "price":"6,000 원",
+            "member":"멤버스 회원가 : 5,000원"
+        },
+        {
+            "link_none":"javascript:void(0);",
+            "img":"images/content2/chemical7.jpg",
+            "title":"세스케어 바닥벽면세정제 욕실용 490ml",
+            "normal":"정상가 : ",
+            "price":"6,000 원",
+            "member":"멤버스 회원가 : 5,000원"
+        },
+        {
+            "link_none":"javascript:void(0);",
+            "img":"images/content2/chemical8.jpg",
+            "title":"세스케어 세탁조 클리너(단상자)",
+            "normal":"정상가 : ",
+            "price":"9,000 원",
+            "member":"멤버스 회원가 : 6,500원"
+        },
+        {
+            "link_none":"javascript:void(0);",
+            "img":"images/content2/chemical9.jpg",
+            "title":"세스케어 곰팡이제거 파워젤 150g*2",
+            "normal":"정상가 : ",
+            "price":"8,000 원",
+            "member":"멤버스 회원가 : 6,500원"
+        }
+    ]
+}

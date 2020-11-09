@@ -1,0 +1,10 @@
+/* 핵심가치 본문 */
+#contentArea .content_area section{position: relative}
+#contentArea .content_area h3{font-family: 'Nanum Gothic', sans-serif; font-size: 2.571em; text-align: center; width: 250px; height: 200px; border-radius: 125px; padding-top: 50px; background: #33a8e4; line-height: 2em; margin-left: 475px; color: #fff; position: absolute; left: 0; top: 200px}
+#contentArea .content_area span{display: block; width: 300px; height: 300px; border: 3px dashed #c1c1c1; border-radius: 150px; position: absolute; left: 50%; top: 175px; margin-left: -152px; z-index: -1}
+#contentArea .content_area ul{overflow: hidden}
+#contentArea .content_area li{width: 600px; float: left; margin-bottom: 200px}
+#contentArea .content_area dt{color: #fff; font-size: 1.143em; background: #33a8e4; width: 130px; height: 75px; text-align: center; border-radius: 65px; padding-top: 55px; margin-left: 225px; margin-bottom: 63px; font-weight: bold; line-height: 1.5em}
+#contentArea .content_area li:nth-of-type(2) dt{height: 90px; padding-top: 40px}
+#contentArea .content_area dd{font-size: 1.286em; text-align: center; width: 300px; position: relative; line-height: 2em; margin: 0 auto}
+#contentArea .content_area dd::before{content: ""; width: 130px; height: 3px; background: #ff7d27; position: absolute; display: block; left: 80px; top: -30px}
